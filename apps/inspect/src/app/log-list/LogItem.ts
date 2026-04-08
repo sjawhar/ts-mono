@@ -1,4 +1,4 @@
-import { LogHandle } from "@tsmono/inspect-common";
+import { LogHandle } from "@sjawhar/inspect-viewer-common";
 
 import { LogPreview } from "../../client/api/types";
 

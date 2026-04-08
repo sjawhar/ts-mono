@@ -1,12 +1,11 @@
+import { useAsyncDataFromQuery } from "@sjawhar/inspect-viewer-react/hooks";
+import { AsyncData } from "@sjawhar/inspect-viewer-util";
 import {
   DefaultError,
   useMutation,
   UseMutationResult,
   useQueryClient,
 } from "@tanstack/react-query";
-
-import { useAsyncDataFromQuery } from "@tsmono/react/hooks";
-import { AsyncData } from "@tsmono/util";
 
 import { useApi } from "../../state/store";
 import { ProjectConfig, ProjectConfigInput } from "../../types/api-types";

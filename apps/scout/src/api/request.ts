@@ -1,4 +1,4 @@
-import { ApiError, asyncJsonParse } from "@tsmono/util";
+import { ApiError, asyncJsonParse } from "@sjawhar/inspect-viewer-util";
 
 type HttpMethod = "GET" | "POST" | "PUT" | "DELETE" | "HEAD";
 

@@ -1,19 +1,18 @@
-import { useMemo } from "react";
-
 import {
   SpanBeginEvent,
   StepEvent,
   SubtaskEvent,
   ToolEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 import {
   EventNode,
   fixupEventStream,
   kCollapsibleEventTypes,
   kSandboxSignalName,
   treeifyEvents,
-} from "@tsmono/inspect-components/transcript";
-import type { EventType } from "@tsmono/inspect-components/transcript";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import type { EventType } from "@sjawhar/inspect-viewer-components/transcript";
+import { useMemo } from "react";
 
 import { Events } from "../../../../@types/extraInspect";
 

@@ -1,8 +1,7 @@
+import type { ContentDocument } from "@sjawhar/inspect-viewer-common/types";
+import { isImage } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import type { ContentDocument } from "@tsmono/inspect-common/types";
-import { isImage } from "@tsmono/util";
 
 import { useContentIcons } from "../../content/IconsContext";
 

@@ -1,6 +1,5 @@
+import { Event } from "@sjawhar/inspect-viewer-common";
 import { useCallback, useMemo } from "react";
-
-import { Event } from "@tsmono/inspect-common";
 
 import { kDefaultExcludeEvents } from "../../../state/sampleSlice";
 import { useStore } from "../../../state/store";

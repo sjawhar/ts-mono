@@ -1,7 +1,6 @@
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
 
 import styles from "./DetailStep.module.css";
 

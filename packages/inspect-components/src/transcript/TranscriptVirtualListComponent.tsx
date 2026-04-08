@@ -1,3 +1,4 @@
+import { LiveVirtualList } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import {
   CSSProperties,
@@ -11,8 +12,6 @@ import {
   useState,
 } from "react";
 import { VirtuosoHandle } from "react-virtuoso";
-
-import { LiveVirtualList } from "@tsmono/react/components";
 
 import { eventSearchText } from "./eventSearchText";
 import { RenderedEventNode } from "./TranscriptVirtualList";

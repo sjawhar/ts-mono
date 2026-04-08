@@ -1,4 +1,4 @@
-import { EvalSample } from "@tsmono/inspect-common/types";
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
 
 import { Event, Progress, SampleState, SampleStatus } from "../app/types";
 import { kSampleMessagesTabId } from "../constants";

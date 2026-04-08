@@ -1,4 +1,4 @@
-import { EvalMetric, EvalResults } from "@tsmono/inspect-common/types";
+import { EvalMetric, EvalResults } from "@sjawhar/inspect-viewer-common/types";
 
 import { EvalHeader, LogDetails, LogPreview } from "../api/types";
 

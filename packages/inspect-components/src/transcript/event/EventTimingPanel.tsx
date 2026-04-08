@@ -1,7 +1,6 @@
+import { formatDateTime, formatTime } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, Fragment } from "react";
-
-import { formatDateTime, formatTime } from "@tsmono/util";
 
 import styles from "./EventTimingPanel.module.css";
 

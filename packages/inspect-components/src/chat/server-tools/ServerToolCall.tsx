@@ -1,9 +1,8 @@
+import type { ContentToolUse } from "@sjawhar/inspect-viewer-common/types";
+import { ExpandablePanel } from "@sjawhar/inspect-viewer-react/components";
+import { asJsonObjArray, isJson } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import type { ContentToolUse } from "@tsmono/inspect-common/types";
-import { ExpandablePanel } from "@tsmono/react/components";
-import { asJsonObjArray, isJson } from "@tsmono/util";
 
 import { useContentIcons } from "../../content/IconsContext";
 import { RecordTree } from "../../content/RecordTree";

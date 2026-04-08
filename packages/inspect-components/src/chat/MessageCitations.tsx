@@ -1,11 +1,10 @@
-import clsx from "clsx";
-import { FC, Fragment, PropsWithChildren, ReactElement } from "react";
-
 import type {
   Citation,
   UrlCitation as UrlCitationType,
-} from "@tsmono/inspect-common/types";
-import { decodeHtmlEntities } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-common/types";
+import { decodeHtmlEntities } from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import { FC, Fragment, PropsWithChildren, ReactElement } from "react";
 
 import styles from "./MessageCitations.module.css";
 

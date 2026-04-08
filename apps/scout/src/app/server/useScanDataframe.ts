@@ -1,8 +1,7 @@
+import { useAsyncDataFromQuery } from "@sjawhar/inspect-viewer-react/hooks";
+import { AsyncData, decodeArrowBytes } from "@sjawhar/inspect-viewer-util";
 import { skipToken } from "@tanstack/react-query";
 import { ColumnTable } from "arquero";
-
-import { useAsyncDataFromQuery } from "@tsmono/react/hooks";
-import { AsyncData, decodeArrowBytes } from "@tsmono/util";
 
 import { useApi } from "../../state/store";
 import { expandResultsetRows } from "../utils/arrow";

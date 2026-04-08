@@ -1,3 +1,14 @@
+import { ChatViewVirtualList } from "@sjawhar/inspect-viewer-components/chat";
+import {
+  DisplayModeContext,
+  MetaDataGrid,
+} from "@sjawhar/inspect-viewer-components/content";
+import {
+  TabPanel,
+  TabSet,
+  ToolButton,
+  ToolDropdownButton,
+} from "@sjawhar/inspect-viewer-react/components";
 import { VscodeSplitLayout } from "@vscode-elements/react-elements";
 import clsx from "clsx";
 import {
@@ -11,18 +22,6 @@ import {
   useState,
 } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-
-import { ChatViewVirtualList } from "@tsmono/inspect-components/chat";
-import {
-  DisplayModeContext,
-  MetaDataGrid,
-} from "@tsmono/inspect-components/content";
-import {
-  TabPanel,
-  TabSet,
-  ToolButton,
-  ToolDropdownButton,
-} from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../components/icons";
 import { getValidationParam, updateValidationParam } from "../../router/url";

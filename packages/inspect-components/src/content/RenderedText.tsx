@@ -1,10 +1,9 @@
-import { CSSProperties, ForwardedRef, forwardRef } from "react";
-
 import {
   MarkdownDivWithReferences,
   MarkdownReference,
   Preformatted,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import { CSSProperties, ForwardedRef, forwardRef } from "react";
 
 import { useDisplayMode } from "./DisplayModeContext";
 

@@ -1,7 +1,6 @@
+import { createLogger, debounce } from "@sjawhar/inspect-viewer-util";
 import { RefObject, useCallback, useEffect, useRef } from "react";
 import { StateCallback, StateSnapshot, VirtuosoHandle } from "react-virtuoso";
-
-import { createLogger, debounce } from "@tsmono/util";
 
 import { useProperty } from "./useProperty";
 

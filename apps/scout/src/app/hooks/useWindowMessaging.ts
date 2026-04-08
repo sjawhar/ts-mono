@@ -1,7 +1,6 @@
+import { basename } from "@sjawhar/inspect-viewer-util";
 import JSON5 from "json5";
 import { useEffect, useMemo } from "react";
-
-import { basename } from "@tsmono/util";
 
 import { useLoggingNavigate } from "../../debugging/navigationDebugging";
 import { scanRoute } from "../../router/url";

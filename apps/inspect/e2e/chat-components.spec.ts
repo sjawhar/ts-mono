@@ -3,11 +3,10 @@
  *
  * These tests exercise ChatView, ChatViewVirtualList, ToolCallView, and related
  * chat rendering components through the sample detail Messages tab.
- * They serve as a baseline before migrating chat/ to @tsmono/inspect-components.
+ * They serve as a baseline before migrating chat/ to @sjawhar/inspect-viewer-components.
  */
+import type { ChatMessage } from "@sjawhar/inspect-viewer-common/types";
 import { http, HttpResponse } from "msw";
-
-import type { ChatMessage } from "@tsmono/inspect-common/types";
 
 import { expect, test } from "./fixtures/app";
 import {

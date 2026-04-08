@@ -1,8 +1,15 @@
+import {
+  EvalPlan,
+  EvalScore,
+  EvalSpec,
+} from "@sjawhar/inspect-viewer-common/types";
+import { RecordTree } from "@sjawhar/inspect-viewer-components/content";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+} from "@sjawhar/inspect-viewer-react/components";
 import { FC, RefObject } from "react";
-
-import { EvalPlan, EvalScore, EvalSpec } from "@tsmono/inspect-common/types";
-import { RecordTree } from "@tsmono/inspect-components/content";
-import { Card, CardBody, CardHeader } from "@tsmono/react/components";
 
 import { PlanDetailView } from "./PlanDetailView";
 

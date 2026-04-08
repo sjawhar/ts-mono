@@ -1,10 +1,15 @@
+import type {
+  ChatMessage,
+  JsonChange,
+} from "@sjawhar/inspect-viewer-common/types";
+import { ChatView } from "@sjawhar/inspect-viewer-components/chat";
+import {
+  HumanBaselineView,
+  SessionLog,
+} from "@sjawhar/inspect-viewer-react/components";
+import { isRecord } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, Fragment, JSX, ReactNode } from "react";
-
-import type { ChatMessage, JsonChange } from "@tsmono/inspect-common/types";
-import { ChatView } from "@tsmono/inspect-components/chat";
-import { HumanBaselineView, SessionLog } from "@tsmono/react/components";
-import { isRecord } from "@tsmono/util";
 
 import styles from "./StateEventRenderers.module.css";
 

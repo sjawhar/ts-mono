@@ -1,8 +1,7 @@
+import type { StepEvent } from "@sjawhar/inspect-viewer-common/types";
+import { formatDateTime } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC } from "react";
-
-import type { StepEvent } from "@tsmono/inspect-common/types";
-import { formatDateTime } from "@tsmono/util";
 
 import { EventPanel } from "./event/EventPanel";
 import { kSandboxSignalName } from "./transform/fixups";

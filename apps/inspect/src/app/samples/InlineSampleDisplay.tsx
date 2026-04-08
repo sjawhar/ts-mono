@@ -1,7 +1,9 @@
+import {
+  ErrorPanel,
+  StickyScrollProvider,
+} from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, useRef } from "react";
-
-import { ErrorPanel, StickyScrollProvider } from "@tsmono/react/components";
 
 import { useSampleData } from "../../state/hooks";
 import { useLoadSample } from "../../state/useLoadSample";

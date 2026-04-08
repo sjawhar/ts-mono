@@ -1,8 +1,7 @@
 // @vitest-environment jsdom
+import { data, loading } from "@sjawhar/inspect-viewer-util";
 import { renderHook } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-
-import { data, loading } from "@tsmono/util";
 
 import { useMapAsyncData } from "./useMapAsyncData";
 

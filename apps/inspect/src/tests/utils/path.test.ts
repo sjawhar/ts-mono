@@ -1,6 +1,5 @@
+import { dirname, filename } from "@sjawhar/inspect-viewer-util";
 import { describe, expect, test } from "vitest";
-
-import { dirname, filename } from "@tsmono/util";
 
 describe("filename", () => {
   test("extracts filename without extension from a path", () => {

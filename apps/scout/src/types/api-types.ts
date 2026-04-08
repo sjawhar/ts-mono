@@ -56,7 +56,7 @@ export type {
   ToolFunction,
   ToolInfo,
   UrlCitation,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 type S = components["schemas"];
 

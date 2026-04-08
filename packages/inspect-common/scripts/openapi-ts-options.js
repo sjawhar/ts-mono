@@ -7,7 +7,7 @@
 import ts from "typescript";
 
 // JsonValue type reference — replaces inline JsonValue definitions with
-// an import from @tsmono/util (handled separately in generate-types.js).
+// an import from @sjawhar/inspect-viewer-util (handled separately in generate-types.js).
 const jsonValueRef = ts.factory.createTypeReferenceNode("JsonValue");
 
 /** @type {import("openapi-typescript").OpenAPITSOptions} */

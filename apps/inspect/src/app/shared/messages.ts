@@ -11,7 +11,7 @@ import {
   ContentText,
   ContentToolUse,
   ContentVideo,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 import { ChatMessageContent, ChatMessages } from "../../@types/extraInspect";
 

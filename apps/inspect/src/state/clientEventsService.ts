@@ -1,5 +1,5 @@
-import { LogHandle } from "@tsmono/inspect-common";
-import { createLogger } from "@tsmono/util";
+import { LogHandle } from "@sjawhar/inspect-viewer-common";
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 
 import { createPolling } from "../utils/polling";
 

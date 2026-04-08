@@ -1,4 +1,8 @@
-import { formatDateTime, formatNumber, formatTime } from "@tsmono/util";
+import {
+  formatDateTime,
+  formatNumber,
+  formatTime,
+} from "@sjawhar/inspect-viewer-util";
 
 import { kSandboxSignalName } from "../transform/fixups";
 import type { EventType } from "../types";

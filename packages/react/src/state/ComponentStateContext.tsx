@@ -3,7 +3,7 @@ import { createContext, FC, ReactNode, useContext } from "react";
 /**
  * Primitive state hooks that each host app must implement.
  *
- * Shared hooks in `@tsmono/react` compose these primitives to build
+ * Shared hooks in `@sjawhar/inspect-viewer-react` compose these primitives to build
  * higher-level hooks like `useProperty`, `useCollapsedState`, and
  * `useCollapsibleIds`.
  * Each method here is a React hook — it internally subscribes to the

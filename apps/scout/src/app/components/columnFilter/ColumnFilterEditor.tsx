@@ -1,7 +1,6 @@
+import { AutocompleteInput } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { ChangeEvent, FC, KeyboardEvent, useCallback } from "react";
-
-import { AutocompleteInput } from "@tsmono/react/components";
 
 import { ScalarValue } from "../../../api/api";
 import type { OperatorModel } from "../../../query";

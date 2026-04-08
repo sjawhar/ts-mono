@@ -1,7 +1,6 @@
+import { useAsyncDataFromQuery } from "@sjawhar/inspect-viewer-react/hooks";
+import { AsyncData } from "@sjawhar/inspect-viewer-util";
 import { skipToken } from "@tanstack/react-query";
-
-import { useAsyncDataFromQuery } from "@tsmono/react/hooks";
-import { AsyncData } from "@tsmono/util";
 
 import { ScalarValue } from "../../api/api";
 import { Condition } from "../../query";

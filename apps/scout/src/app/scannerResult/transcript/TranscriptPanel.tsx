@@ -1,8 +1,7 @@
+import { EventNode } from "@sjawhar/inspect-viewer-components/transcript";
+import type { EventType } from "@sjawhar/inspect-viewer-components/transcript";
 import clsx from "clsx";
 import { FC, useRef } from "react";
-
-import { EventNode } from "@tsmono/inspect-components/transcript";
-import type { EventType } from "@tsmono/inspect-components/transcript";
 
 import { TranscriptView } from "../../../components/transcript/TranscriptView";
 import { ScanResultData } from "../../types";

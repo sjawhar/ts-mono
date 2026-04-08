@@ -1,8 +1,7 @@
+import type { InputEvent } from "@sjawhar/inspect-viewer-common/types";
+import { ANSIDisplay } from "@sjawhar/inspect-viewer-react/components";
+import { formatDateTime } from "@sjawhar/inspect-viewer-util";
 import { FC } from "react";
-
-import type { InputEvent } from "@tsmono/inspect-common/types";
-import { ANSIDisplay } from "@tsmono/react/components";
-import { formatDateTime } from "@tsmono/util";
 
 import { EventPanel } from "./event/EventPanel";
 import { TranscriptIcons } from "./icons";

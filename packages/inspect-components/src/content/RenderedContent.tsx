@@ -1,15 +1,14 @@
 // TODO: lint strict type safety (eliminate any)
 /* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unused-vars, @typescript-eslint/no-base-to-string, @typescript-eslint/unbound-method */
-import clsx from "clsx";
-import JSON5 from "json5";
-import { FC, Fragment, isValidElement, JSX, ReactNode } from "react";
-
 import {
   ANSIDisplay,
   JSONPanel,
   MarkdownReference,
-} from "@tsmono/react/components";
-import { formatNumber, isJson } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-react/components";
+import { formatNumber, isJson } from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import JSON5 from "json5";
+import { FC, Fragment, isValidElement, JSX, ReactNode } from "react";
 
 import { useContentRenderers } from "./ContentRenderersContext";
 import { useContentIcons } from "./IconsContext";

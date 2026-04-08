@@ -5,7 +5,7 @@
  * content at configurable depth levels (direct, children, recursive).
  */
 
-import { formatDuration } from "@tsmono/util";
+import { formatDuration } from "@sjawhar/inspect-viewer-util";
 
 import type {
   TimelineEvent,

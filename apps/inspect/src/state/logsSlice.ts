@@ -1,7 +1,6 @@
+import { EvalSet, LogHandle } from "@sjawhar/inspect-viewer-common/types";
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 import { GridState } from "ag-grid-community";
-
-import { EvalSet, LogHandle } from "@tsmono/inspect-common/types";
-import { createLogger } from "@tsmono/util";
 
 import { DisplayedSample, LogsState } from "../app/types";
 import { EvalHeader, LogDetails, LogPreview } from "../client/api/types";

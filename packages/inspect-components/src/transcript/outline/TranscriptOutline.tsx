@@ -1,3 +1,7 @@
+import {
+  useScrollTrack,
+  useVirtuosoState,
+} from "@sjawhar/inspect-viewer-react/hooks";
 import clsx from "clsx";
 import {
   CSSProperties,
@@ -9,8 +13,6 @@ import {
   useRef,
 } from "react";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
-
-import { useScrollTrack, useVirtuosoState } from "@tsmono/react/hooks";
 
 import { kSandboxSignalName } from "../transform/fixups";
 import { flatTree } from "../transform/flatten";

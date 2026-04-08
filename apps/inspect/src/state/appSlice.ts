@@ -1,6 +1,5 @@
+import { clearDocumentSelection } from "@sjawhar/inspect-viewer-util";
 import { StateSnapshot } from "react-virtuoso";
-
-import { clearDocumentSelection } from "@tsmono/util";
 
 import { AppState } from "../app/types";
 import { Capabilities } from "../client/api/types";

@@ -1,14 +1,24 @@
-import clsx from "clsx";
-import { FC, useMemo } from "react";
-
 import {
   EarlyStoppingSummary,
   EvalSpec,
   EvalStats,
-} from "@tsmono/inspect-common/types";
-import { MetaDataGrid, RecordTree } from "@tsmono/inspect-components/content";
-import { Card, CardBody, CardHeader } from "@tsmono/react/components";
-import { formatNumber, ghCommitUrl, toTitleCase } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-common/types";
+import {
+  MetaDataGrid,
+  RecordTree,
+} from "@sjawhar/inspect-viewer-components/content";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+} from "@sjawhar/inspect-viewer-react/components";
+import {
+  formatNumber,
+  ghCommitUrl,
+  toTitleCase,
+} from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import { FC, useMemo } from "react";
 
 import { kLogViewTaskTabId } from "../../../constants";
 import { formatDateTime, formatDuration } from "../../../utils/format";

@@ -1,12 +1,11 @@
 /**
- * E2E tests verifying that components migrated to @tsmono/inspect-components
+ * E2E tests verifying that components migrated to @sjawhar/inspect-viewer-components
  * render correctly in the scout app. These tests exercise the content/ and
  * usage/ components (MetaDataGrid, RenderedText, ModelUsagePanel, etc.)
  * through real UI flows.
  */
+import { encodeBase64Url } from "@sjawhar/inspect-viewer-util";
 import { http, HttpResponse } from "msw";
-
-import { encodeBase64Url } from "@tsmono/util";
 
 import type {
   MessagesEventsResponse,
@@ -28,7 +27,7 @@ const TRANSCRIPT_ID = "t-shared-001";
 /**
  * Helper to build a transcript with a user message and a model response
  * that has usage data, exercising RenderedText (message content) and
- * ModelUsagePanel (token display) from @tsmono/inspect-components.
+ * ModelUsagePanel (token display) from @sjawhar/inspect-viewer-components.
  */
 function transcriptWithModelEvent(): MessagesEventsResponse {
   return createMessagesEventsResponse({
@@ -52,7 +51,7 @@ function transcriptWithModelEvent(): MessagesEventsResponse {
   });
 }
 
-test.describe("shared components from @tsmono/inspect-components", () => {
+test.describe("shared components from @sjawhar/inspect-viewer-components", () => {
   test("transcript detail renders message content via shared RenderedText", async ({
     page,
     network,

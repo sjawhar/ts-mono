@@ -1,4 +1,7 @@
-import type { ScoreEvent, SpanBeginEvent } from "@tsmono/inspect-common/types";
+import type {
+  ScoreEvent,
+  SpanBeginEvent,
+} from "@sjawhar/inspect-viewer-common/types";
 
 import { TYPE_SCORER, TYPE_SCORERS } from "../transform/utils";
 import { EventNode } from "../types";

@@ -1,15 +1,14 @@
-import clsx from "clsx";
-import { FC } from "react";
-
-import { EvalError } from "@tsmono/inspect-common/types";
-import { RenderedContent } from "@tsmono/inspect-components/content";
+import { EvalError } from "@sjawhar/inspect-viewer-common/types";
+import { RenderedContent } from "@sjawhar/inspect-viewer-components/content";
 import {
   ANSIDisplay,
   Card,
   CardBody,
   CardHeader,
   ExpandablePanel,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC } from "react";
 
 import { ApplicationIcons } from "../../appearance/icons";
 

@@ -1,8 +1,7 @@
+import { ChatView } from "@sjawhar/inspect-viewer-components/chat";
+import { MarkdownReference } from "@sjawhar/inspect-viewer-react/components";
 import { ReactNode, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
-
-import { ChatView } from "@tsmono/inspect-components/chat";
-import { MarkdownReference } from "@tsmono/react/components";
 
 import { TranscriptView } from "../../components/transcript/TranscriptView";
 import { scanResultRoute } from "../../router/url";

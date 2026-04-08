@@ -1,15 +1,14 @@
+import {
+  LiveVirtualList,
+  LoadingBar,
+  NoContentsPanel,
+} from "@sjawhar/inspect-viewer-react/components";
+import { basename } from "@sjawhar/inspect-viewer-util";
 import { ColumnTable } from "arquero";
 import clsx from "clsx";
 import { FC, useCallback, useEffect, useMemo, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import { VirtuosoHandle } from "react-virtuoso";
-
-import {
-  LiveVirtualList,
-  LoadingBar,
-  NoContentsPanel,
-} from "@tsmono/react/components";
-import { basename } from "@tsmono/util";
 
 import { useLoggingNavigate } from "../../../../debugging/navigationDebugging";
 import { scanResultRoute } from "../../../../router/url";

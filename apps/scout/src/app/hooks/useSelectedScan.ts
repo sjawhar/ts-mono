@@ -1,7 +1,6 @@
+import { AsyncData } from "@sjawhar/inspect-viewer-util";
 import { skipToken } from "@tanstack/react-query";
 import { useEffect } from "react";
-
-import { AsyncData } from "@tsmono/util";
 
 import { useStore } from "../../state/store";
 import { Status } from "../../types/api-types";

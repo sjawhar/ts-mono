@@ -1,3 +1,4 @@
+import { Modal } from "@sjawhar/inspect-viewer-react/components";
 import { skipToken, useQueryClient } from "@tanstack/react-query";
 import {
   VscodeButton,
@@ -6,8 +7,6 @@ import {
   VscodeTextfield,
 } from "@vscode-elements/react-elements";
 import { FC, useCallback, useMemo, useState } from "react";
-
-import { Modal } from "@tsmono/react/components";
 
 import { useApi } from "../../../state/store";
 import { ValidationCase } from "../../../types/api-types";

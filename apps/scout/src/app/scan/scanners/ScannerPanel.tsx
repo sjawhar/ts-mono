@@ -1,7 +1,6 @@
+import { LoadingBar } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { LoadingBar } from "@tsmono/react/components";
 
 import { useStore } from "../../../state/store";
 import { Status } from "../../../types/api-types";

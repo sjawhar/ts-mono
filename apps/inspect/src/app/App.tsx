@@ -13,16 +13,15 @@ import "prismjs/components/prism-yaml";
 import "prismjs/themes/prism.css";
 import "./App.css";
 
-import ClipboardJS from "clipboard";
-import { FC, useCallback, useEffect } from "react";
-import { RouterProvider } from "react-router-dom";
-
 import {
   ComponentIconProvider,
   ComponentIcons,
-} from "@tsmono/react/components";
-import { ComponentStateProvider } from "@tsmono/react/state";
-import { basename, dirname } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-react/components";
+import { ComponentStateProvider } from "@sjawhar/inspect-viewer-react/state";
+import { basename, dirname } from "@sjawhar/inspect-viewer-util";
+import ClipboardJS from "clipboard";
+import { FC, useCallback, useEffect } from "react";
+import { RouterProvider } from "react-router-dom";
 
 import { ClientAPI, HostMessage } from "../client/api/types.ts";
 import { inspectStateHooks } from "../state/componentStateAdapter";

@@ -1,8 +1,7 @@
+import { EvalDataset } from "@sjawhar/inspect-viewer-common/types";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
 import clsx from "clsx";
 import { CSSProperties, FC } from "react";
-
-import { EvalDataset } from "@tsmono/inspect-common/types";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
 
 import styles from "./DatasetDetailView.module.css";
 

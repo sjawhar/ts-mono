@@ -3,11 +3,10 @@
  *
  * These tests exercise ChatView, ChatMessageRow, ToolCallView, and related
  * chat rendering components through the transcript detail Messages tab.
- * They serve as a baseline before migrating chat/ to @tsmono/inspect-components.
+ * They serve as a baseline before migrating chat/ to @sjawhar/inspect-viewer-components.
  */
+import { encodeBase64Url } from "@sjawhar/inspect-viewer-util";
 import { http, HttpResponse } from "msw";
-
-import { encodeBase64Url } from "@tsmono/util";
 
 import type {
   MessagesEventsResponse,

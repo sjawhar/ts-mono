@@ -1,6 +1,5 @@
+import { SourceCodePanel } from "@sjawhar/inspect-viewer-react/components";
 import { FC, ReactNode } from "react";
-
-import { SourceCodePanel } from "@tsmono/react/components";
 
 import type { ToolCallViewProps } from "./ToolCallView";
 

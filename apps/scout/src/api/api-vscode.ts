@@ -3,7 +3,7 @@
  * Composes apiScoutServer (for HTTP calls via JSON-RPC proxy) with VS Code storage.
  */
 
-import { VSCodeApi } from "@tsmono/util";
+import { VSCodeApi } from "@sjawhar/inspect-viewer-util";
 
 import { ScoutApiV2 } from "./api";
 import { apiScoutServer } from "./api-scout-server";

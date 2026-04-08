@@ -1,15 +1,14 @@
-import clsx from "clsx";
-import { FC, RefObject } from "react";
-
-import { EvalSample } from "@tsmono/inspect-common/types";
-import { inputString } from "@tsmono/inspect-common/utils";
-import { RenderedText } from "@tsmono/inspect-components/content";
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
+import { inputString } from "@sjawhar/inspect-viewer-common/utils";
+import { RenderedText } from "@sjawhar/inspect-viewer-components/content";
 import {
   Card,
   CardBody,
   ExpandablePanel,
   NoContentsPanel,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC, RefObject } from "react";
 
 import { useEvalDescriptor } from "../../../state/hooks";
 

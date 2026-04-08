@@ -1,8 +1,7 @@
+import { useProperty } from "@sjawhar/inspect-viewer-react/hooks";
+import { formatPrettyDecimal } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { useProperty } from "@tsmono/react/hooks";
-import { formatPrettyDecimal } from "@tsmono/util";
 
 import { RunningMetric } from "../../../client/api/types";
 import { LinkButton } from "../../../components/LinkButton";

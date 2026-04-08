@@ -1,3 +1,19 @@
+import {
+  computeTurnMap,
+  flatTree,
+  kSandboxSignalName,
+  kTranscriptCollapseScope,
+  kTranscriptOutlineCollapseScope,
+  noScorerChildren,
+  removeNodeVisitor,
+  removeStepSpanNameVisitor,
+  TranscriptVirtualList,
+} from "@sjawhar/inspect-viewer-components/transcript";
+import type {
+  EventNode,
+  EventType,
+} from "@sjawhar/inspect-viewer-components/transcript";
+import { StickyScrollProvider } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import {
   CSSProperties,
@@ -10,23 +26,6 @@ import {
   useRef,
 } from "react";
 import { VirtuosoHandle } from "react-virtuoso";
-
-import {
-  computeTurnMap,
-  flatTree,
-  kSandboxSignalName,
-  kTranscriptCollapseScope,
-  kTranscriptOutlineCollapseScope,
-  noScorerChildren,
-  removeNodeVisitor,
-  removeStepSpanNameVisitor,
-  TranscriptVirtualList,
-} from "@tsmono/inspect-components/transcript";
-import type {
-  EventNode,
-  EventType,
-} from "@tsmono/inspect-components/transcript";
-import { StickyScrollProvider } from "@tsmono/react/components";
 
 import { useStore } from "../../state/store";
 

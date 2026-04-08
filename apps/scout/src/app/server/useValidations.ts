@@ -1,7 +1,6 @@
+import { useAsyncDataFromQuery } from "@sjawhar/inspect-viewer-react/hooks";
+import { ApiError, AsyncData } from "@sjawhar/inspect-viewer-util";
 import { skipToken, useMutation, useQueryClient } from "@tanstack/react-query";
-
-import { useAsyncDataFromQuery } from "@tsmono/react/hooks";
-import { ApiError, AsyncData } from "@tsmono/util";
 
 import { useApi } from "../../state/store";
 import {

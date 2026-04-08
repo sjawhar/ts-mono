@@ -5,9 +5,8 @@
  * so values persist in the store across unmounts.
  */
 
+import { useProperty } from "@sjawhar/inspect-viewer-react/hooks";
 import { useCallback, useMemo } from "react";
-
-import { useProperty } from "@tsmono/react/hooks";
 
 import type { MarkerConfig, MarkerDepth, MarkerKind } from "../utils/markers";
 import { defaultMarkerConfig } from "../utils/markers";

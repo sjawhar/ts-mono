@@ -1,10 +1,12 @@
+import {
+  ErrorPanel,
+  NoContentsPanel,
+} from "@sjawhar/inspect-viewer-react/components";
 import { AllCommunityModule, ModuleRegistry } from "ag-grid-community";
 import { ColumnTable } from "arquero";
 import clsx from "clsx";
 import { FC, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
-
-import { ErrorPanel, NoContentsPanel } from "@tsmono/react/components";
 
 import { useLoggingNavigate } from "../../../../debugging/navigationDebugging";
 import { scanResultRoute } from "../../../../router/url";

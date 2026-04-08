@@ -1,4 +1,4 @@
-import type { Content } from "@tsmono/inspect-common/types";
+import type { Content } from "@sjawhar/inspect-viewer-common/types";
 
 import type { EventNode } from "./types";
 

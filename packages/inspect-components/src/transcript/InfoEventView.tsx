@@ -1,10 +1,9 @@
+import type { InfoEvent } from "@sjawhar/inspect-viewer-common/types";
+import { RenderedText } from "@sjawhar/inspect-viewer-components/content";
+import { JSONPanel } from "@sjawhar/inspect-viewer-react/components";
+import { formatDateTime } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import type { InfoEvent } from "@tsmono/inspect-common/types";
-import { RenderedText } from "@tsmono/inspect-components/content";
-import { JSONPanel } from "@tsmono/react/components";
-import { formatDateTime } from "@tsmono/util";
 
 import { EventPanel } from "./event/EventPanel";
 import { TranscriptIcons } from "./icons";

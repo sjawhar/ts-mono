@@ -1,6 +1,5 @@
+import { ErrorPanel } from "@sjawhar/inspect-viewer-react/components";
 import { Component, ErrorInfo, ReactNode } from "react";
-
-import { ErrorPanel } from "@tsmono/react/components";
 
 interface Props {
   children: ReactNode;

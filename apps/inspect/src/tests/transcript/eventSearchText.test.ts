@@ -1,9 +1,8 @@
-import { describe, expect, test } from "vitest";
-
 import {
   EventNode,
   eventSearchText,
-} from "@tsmono/inspect-components/transcript";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import { describe, expect, test } from "vitest";
 
 const makeNode = (event: Record<string, unknown>): EventNode => {
   return new EventNode("test-id", event as never, 0);

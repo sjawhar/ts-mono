@@ -1,9 +1,8 @@
+import { createLogger, debounce } from "@sjawhar/inspect-viewer-util";
 import { enableMapSet } from "immer";
 import { create, StoreApi, UseBoundStore } from "zustand";
 import { devtools, persist } from "zustand/middleware";
 import { immer } from "zustand/middleware/immer";
-
-import { createLogger, debounce } from "@tsmono/util";
 
 import { Capabilities, ClientAPI, ClientStorage } from "../client/api/types";
 import { createDatabaseService, DatabaseService } from "../client/database";

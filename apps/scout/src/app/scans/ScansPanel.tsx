@@ -1,13 +1,12 @@
-import { clsx } from "clsx";
-import { FC, useCallback, useEffect, useMemo } from "react";
-
 import {
   ErrorPanel,
   ExtendedFindProvider,
   LoadingBar,
   NoContentsPanel,
-} from "@tsmono/react/components";
-import { useDocumentTitle } from "@tsmono/react/hooks";
+} from "@sjawhar/inspect-viewer-react/components";
+import { useDocumentTitle } from "@sjawhar/inspect-viewer-react/hooks";
+import { clsx } from "clsx";
+import { FC, useCallback, useEffect, useMemo } from "react";
 
 import { ApplicationIcons } from "../../components/icons";
 import { useStore } from "../../state/store";

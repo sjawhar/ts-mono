@@ -1,13 +1,16 @@
-import clsx from "clsx";
-import JSON5 from "json5";
-import { FC, Fragment, ReactNode } from "react";
-
-import { RecordTree } from "@tsmono/inspect-components/content";
+import { RecordTree } from "@sjawhar/inspect-viewer-components/content";
 import {
   MarkdownDivWithReferences,
   MarkdownReference,
-} from "@tsmono/react/components";
-import { formatPrettyDecimal, printArray, printObject } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-react/components";
+import {
+  formatPrettyDecimal,
+  printArray,
+  printObject,
+} from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import JSON5 from "json5";
+import { FC, Fragment, ReactNode } from "react";
 
 import {
   isArrayValue,

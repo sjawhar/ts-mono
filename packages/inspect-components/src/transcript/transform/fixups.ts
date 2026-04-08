@@ -3,7 +3,7 @@ import type {
   SpanBeginEvent,
   SpanEndEvent,
   StepEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 import { hasSpans } from "./utils";
 

@@ -1,7 +1,6 @@
+import { AsyncData, loading } from "@sjawhar/inspect-viewer-util";
 import { QueryKey, useQuery, UseQueryOptions } from "@tanstack/react-query";
 import { useMemo } from "react";
-
-import { AsyncData, loading } from "@tsmono/util";
 
 /**
  * Custom hook that retrieves data using `useQuery` from the `@tanstack/react-query`

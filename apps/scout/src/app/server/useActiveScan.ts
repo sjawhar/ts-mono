@@ -1,7 +1,6 @@
+import { useMapAsyncData } from "@sjawhar/inspect-viewer-react/hooks";
+import { AsyncData } from "@sjawhar/inspect-viewer-util";
 import { useCallback } from "react";
-
-import { useMapAsyncData } from "@tsmono/react/hooks";
-import { AsyncData } from "@tsmono/util";
 
 import { ActiveScanInfo } from "../../types/api-types";
 

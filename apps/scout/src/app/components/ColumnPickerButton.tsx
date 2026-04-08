@@ -1,7 +1,6 @@
+import { ToolButton } from "@sjawhar/inspect-viewer-react/components";
 import { clsx } from "clsx";
 import { FC, ReactNode, useRef, useState } from "react";
-
-import { ToolButton } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../components/icons";
 

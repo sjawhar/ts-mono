@@ -1,12 +1,11 @@
-import { FC } from "react";
-
 import type {
   ChatMessageAssistant,
   ChatMessageSystem,
   ChatMessageTool,
   ChatMessageUser,
   Citation,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
+import { FC } from "react";
 
 import { MessageContent } from "./MessageContent";
 

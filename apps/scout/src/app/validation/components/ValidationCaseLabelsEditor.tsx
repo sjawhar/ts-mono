@@ -1,12 +1,14 @@
 import {
+  AutocompleteInput,
+  PopOver,
+} from "@sjawhar/inspect-viewer-react/components";
+import {
   VscodeButton,
   VscodeRadio,
   VscodeRadioGroup,
 } from "@vscode-elements/react-elements";
 import clsx from "clsx";
 import { FC, useCallback, useRef, useState } from "react";
-
-import { AutocompleteInput, PopOver } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../../components/icons";
 import { Chip } from "../../components/Chip";

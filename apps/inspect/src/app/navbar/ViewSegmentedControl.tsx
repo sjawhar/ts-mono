@@ -1,7 +1,6 @@
+import { SegmentedControl } from "@sjawhar/inspect-viewer-react/components";
 import { FC } from "react";
 import { useNavigate } from "react-router-dom";
-
-import { SegmentedControl } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../appearance/icons";
 import {

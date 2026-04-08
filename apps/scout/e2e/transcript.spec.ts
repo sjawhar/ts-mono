@@ -1,6 +1,5 @@
+import { encodeBase64Url } from "@sjawhar/inspect-viewer-util";
 import { http, HttpResponse } from "msw";
-
-import { encodeBase64Url } from "@tsmono/util";
 
 import type {
   MessagesEventsResponse,

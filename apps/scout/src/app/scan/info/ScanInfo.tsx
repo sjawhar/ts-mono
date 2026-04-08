@@ -1,8 +1,14 @@
+import {
+  MetaDataGrid,
+  RecordTree,
+} from "@sjawhar/inspect-viewer-components/content";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+} from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { MetaDataGrid, RecordTree } from "@tsmono/inspect-components/content";
-import { Card, CardBody, CardHeader } from "@tsmono/react/components";
 
 import { Status } from "../../../types/api-types";
 

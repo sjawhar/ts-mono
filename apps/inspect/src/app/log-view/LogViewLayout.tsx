@@ -1,7 +1,9 @@
+import {
+  ErrorPanel,
+  ExtendedFindProvider,
+} from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, useEffect, useRef } from "react";
-
-import { ErrorPanel, ExtendedFindProvider } from "@tsmono/react/components";
 
 import { ActivityBar } from "../../components/ActivityBar";
 import { FindBand } from "../../components/FindBand";

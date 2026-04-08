@@ -1,9 +1,8 @@
+import { EvalResults, EvalSpec } from "@sjawhar/inspect-viewer-common/types";
+import { CopyButton } from "@sjawhar/inspect-viewer-react/components";
+import { filename } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { EvalResults, EvalSpec } from "@tsmono/inspect-common/types";
-import { CopyButton } from "@tsmono/react/components";
-import { filename } from "@tsmono/util";
 
 import { EvalLogStatus } from "../../../@types/extraInspect";
 import { RunningMetric } from "../../../client/api/types";

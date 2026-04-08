@@ -1,6 +1,9 @@
+import {
+  Card,
+  CardBody,
+  CardHeader,
+} from "@sjawhar/inspect-viewer-react/components";
 import { FC } from "react";
-
-import { Card, CardBody, CardHeader } from "@tsmono/react/components";
 
 import { ModelTokenTable } from "./ModelTokenTable";
 import { ModelUsageData } from "./ModelUsagePanel";

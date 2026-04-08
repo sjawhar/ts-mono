@@ -1,7 +1,7 @@
 import { createContext, FC, ReactNode, useContext } from "react";
 
 /**
- * Icon class names required by shared components in `@tsmono/react`.
+ * Icon class names required by shared components in `@sjawhar/inspect-viewer-react`.
  *
  * Each host app provides these via `<ComponentIconProvider>` at the root,
  * mapping its own icon set (Bootstrap Icons, Codicons, etc.) to these

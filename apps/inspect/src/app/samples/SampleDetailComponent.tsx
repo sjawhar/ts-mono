@@ -1,7 +1,6 @@
+import { ExtendedFindProvider } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import React, { FC, useCallback, useEffect, useMemo } from "react";
-
-import { ExtendedFindProvider } from "@tsmono/react/components";
 
 import { FindBand } from "../../components/FindBand";
 import { useSampleData } from "../../state/hooks";

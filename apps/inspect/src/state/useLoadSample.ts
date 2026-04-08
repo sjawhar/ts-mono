@@ -1,6 +1,5 @@
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 import { useCallback, useEffect } from "react";
-
-import { createLogger } from "@tsmono/util";
 
 import { useLogSelection, usePrevious, useSampleData } from "./hooks";
 import { getSamplePolling } from "./samplePollingInstance";

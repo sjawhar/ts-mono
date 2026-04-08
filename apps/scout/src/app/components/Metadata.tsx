@@ -1,11 +1,10 @@
-import { FC } from "react";
-
-import { RecordTree } from "@tsmono/inspect-components/content";
+import { RecordTree } from "@sjawhar/inspect-viewer-components/content";
 import {
   LabeledValue,
   MarkdownDivWithReferences,
   MarkdownReference,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import { FC } from "react";
 
 import { JsonValue } from "../../types/json-value";
 

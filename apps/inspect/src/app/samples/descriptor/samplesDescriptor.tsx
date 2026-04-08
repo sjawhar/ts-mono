@@ -1,7 +1,6 @@
+import { inputString } from "@sjawhar/inspect-viewer-common/utils";
+import { arrayToString } from "@sjawhar/inspect-viewer-util";
 import { ReactNode } from "react";
-
-import { inputString } from "@tsmono/inspect-common/utils";
-import { arrayToString } from "@tsmono/util";
 
 import { ScoreValue } from "../../../@types/extraInspect";
 import { ScoreLabel } from "../../../app/types";

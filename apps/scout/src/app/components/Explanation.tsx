@@ -1,9 +1,8 @@
-import { FC, ReactNode } from "react";
-
 import {
   MarkdownDivWithReferences,
   MarkdownReference,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import { FC, ReactNode } from "react";
 
 import { ScanResultSummary } from "../types";
 

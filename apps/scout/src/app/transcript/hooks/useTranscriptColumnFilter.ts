@@ -1,9 +1,8 @@
-import { useCallback, useMemo } from "react";
-
 import {
   eventTypeValues,
   type EventTypeValue,
-} from "@tsmono/inspect-components/transcript";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import { useCallback, useMemo } from "react";
 
 import { useStore } from "../../../state/store";
 

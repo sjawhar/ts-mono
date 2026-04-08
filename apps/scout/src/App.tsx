@@ -14,8 +14,8 @@ import {
   ComponentIconProvider,
   ComponentIcons,
   ExtendedFindProvider,
-} from "@tsmono/react/components";
-import { ComponentStateProvider } from "@tsmono/react/state";
+} from "@sjawhar/inspect-viewer-react/components";
+import { ComponentStateProvider } from "@sjawhar/inspect-viewer-react/state";
 
 import { useAppConfigAsync } from "./app/server/useAppConfig";
 import { useTopicInvalidation } from "./app/server/useTopicInvalidation";

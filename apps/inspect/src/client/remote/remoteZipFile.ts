@@ -1,4 +1,4 @@
-import { fetchRange } from "@tsmono/util";
+import { fetchRange } from "@sjawhar/inspect-viewer-util";
 
 import { ProgressCallback } from "../api/types";
 

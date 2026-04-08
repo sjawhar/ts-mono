@@ -1,3 +1,5 @@
+import type { ChatMessage } from "@sjawhar/inspect-viewer-common/types";
+import { LiveVirtualList } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import {
   FC,
@@ -10,9 +12,6 @@ import {
   useRef,
 } from "react";
 import { ContextProp, ItemProps, VirtuosoHandle } from "react-virtuoso";
-
-import type { ChatMessage } from "@tsmono/inspect-common/types";
-import { LiveVirtualList } from "@tsmono/react/components";
 
 import { ChatMessageRow } from "./ChatMessageRow";
 import { ChatView } from "./ChatView";

@@ -7,7 +7,7 @@
  * so treeifyEvents can reconstruct the hierarchy.
  */
 
-import { EventNode } from "@tsmono/inspect-components/transcript";
+import { EventNode } from "@sjawhar/inspect-viewer-components/transcript";
 
 import type {
   TimelineEvent,

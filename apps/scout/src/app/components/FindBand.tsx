@@ -1,7 +1,6 @@
+import { useExtendedFind } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, KeyboardEvent, useCallback, useEffect, useRef } from "react";
-
-import { useExtendedFind } from "@tsmono/react/components";
 
 import "./FindBand.css";
 

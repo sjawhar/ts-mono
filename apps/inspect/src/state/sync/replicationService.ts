@@ -1,5 +1,5 @@
-import { LogHandle } from "@tsmono/inspect-common";
-import { throttle } from "@tsmono/util";
+import { LogHandle } from "@sjawhar/inspect-viewer-common";
+import { throttle } from "@sjawhar/inspect-viewer-util";
 
 import { ClientAPI, LogDetails, LogPreview } from "../../client/api/types";
 import { DatabaseService } from "../../client/database";

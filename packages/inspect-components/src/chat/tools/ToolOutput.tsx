@@ -1,9 +1,8 @@
+import type { Content } from "@sjawhar/inspect-viewer-common/types";
+import { ANSIDisplay } from "@sjawhar/inspect-viewer-react/components";
+import { isAnsiOutput, isJson } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import type { Content } from "@tsmono/inspect-common/types";
-import { ANSIDisplay } from "@tsmono/react/components";
-import { isAnsiOutput, isJson } from "@tsmono/util";
 
 import { ContentDocumentView } from "../documents/ContentDocumentView";
 import { JsonMessageContent } from "../JsonMessageContent";

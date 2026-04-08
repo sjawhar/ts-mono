@@ -1,3 +1,9 @@
+import {
+  Modal,
+  NonIdealState,
+  TextInput,
+} from "@sjawhar/inspect-viewer-react/components";
+import { useDocumentTitle } from "@sjawhar/inspect-viewer-react/hooks";
 import { skipToken } from "@tanstack/react-query";
 import {
   VscodeButton,
@@ -13,9 +19,6 @@ import {
   useMemo,
   useState,
 } from "react";
-
-import { Modal, NonIdealState, TextInput } from "@tsmono/react/components";
-import { useDocumentTitle } from "@tsmono/react/hooks";
 
 import { ApplicationIcons } from "../../components/icons";
 import { useStore } from "../../state/store";

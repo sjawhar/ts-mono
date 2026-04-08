@@ -1,9 +1,8 @@
+import { inputString } from "@sjawhar/inspect-viewer-common/utils";
+import { ProgressBar } from "@sjawhar/inspect-viewer-react/components";
 import { AgGridReact } from "ag-grid-react";
 import clsx from "clsx";
 import { FC, useCallback, useEffect, useMemo, useRef, useState } from "react";
-
-import { inputString } from "@tsmono/inspect-common/utils";
-import { ProgressBar } from "@tsmono/react/components";
 
 import { ActivityBar } from "../../components/ActivityBar";
 import {

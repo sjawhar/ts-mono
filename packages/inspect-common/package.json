@@ -1,7 +1,6 @@
 {
-  "name": "@tsmono/inspect-common",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@sjawhar/inspect-viewer-common",
+  "version": "0.1.0",
   "type": "module",
   "main": "./src/types/index.ts",
   "types": "./src/types/index.ts",
@@ -19,7 +18,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@tsmono/util": "workspace:*"
+    "@sjawhar/inspect-viewer-util": "workspace:^"
   },
   "devDependencies": {
     "@tsmono/eslint-config": "workspace:*",
@@ -29,5 +28,11 @@
     "typescript": "^6.0.2",
     "typescript-eslint": "^8.58.0",
     "vitest": "^4.1.3"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src"
+  ]
 }

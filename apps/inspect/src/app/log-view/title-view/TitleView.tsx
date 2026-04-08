@@ -1,12 +1,11 @@
-import clsx from "clsx";
-import { FC } from "react";
-
 import {
   EvalPlan,
   EvalResults,
   EvalSpec,
   EvalStats,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
+import clsx from "clsx";
+import { FC } from "react";
 
 import { EvalLogStatus } from "../../../@types/extraInspect";
 import { RunningMetric } from "../../../client/api/types";

@@ -3,7 +3,7 @@
 ## Summary
 
 The chat component migration consolidated duplicate chat rendering code from both
-`apps/inspect` and `apps/scout` into the shared `@tsmono/inspect-components`
+`apps/inspect` and `apps/scout` into the shared `@sjawhar/inspect-viewer-components`
 package. Both apps had independently evolved chat implementations with divergent
 features, resulting in ~90 files of duplicated code across the two apps.
 
@@ -52,7 +52,7 @@ and exposes the differences as props/callbacks.
 | **Message linking/URLs** | Copy-link button with shareable URL per message | No message linking | `ChatViewLinkingOptions` with `enabled`, `getUrl`, `icon` props |
 | **Message labels** | Numbered labels on messages (e.g., for citation refs) | No message labeling | `ChatViewLabelOptions` with `values`, `show`, `highlight` props |
 | **Icon system** | `ApplicationIcons` from `../../appearance/icons` | `ApplicationIcons` from `../../icons` (more comprehensive set) | `useContentIcons()` context hook replaces direct `ApplicationIcons` import; default Bootstrap Icons |
-| **Type source** | `@tsmono/inspect-common/types` | Local `../../types/api-types.ts` | All types from `@tsmono/inspect-common/types` |
+| **Type source** | `@sjawhar/inspect-viewer-common/types` | Local `../../types/api-types.ts` | All types from `@sjawhar/inspect-viewer-common/types` |
 | **Tool output merging** | Merges tool responses into preceding assistant message | Same behavior | `resolveIntoPreviousMessage` prop (default: true) |
 | **Event-to-message bridge** | `messagesFromEvents.ts` converts streaming events to messages | Direct message arrays from transcript API | App-local adapter in inspect; shared components accept `ChatMessage[]` |
 | **ChatViewVirtualList** | Single virtualized mode | Two modes (virtualized + plain DOM for short lists) | Merged: dual render mode with `onNativeFindChanged` callback |
@@ -98,7 +98,7 @@ packages/inspect-components/src/chat/
 ## Consumer Changes
 
 Both apps deleted their entire local `chat/` directories and now import from
-`@tsmono/inspect-components/chat`:
+`@sjawhar/inspect-viewer-components/chat`:
 
 **Inspect** (7 files updated):
 - `SampleDisplay.tsx` -- ChatViewVirtualList with `display`, `tools` props

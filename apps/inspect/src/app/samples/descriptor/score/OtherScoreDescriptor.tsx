@@ -1,4 +1,4 @@
-import { RenderedContent } from "@tsmono/inspect-components/content";
+import { RenderedContent } from "@sjawhar/inspect-viewer-components/content";
 
 import { kScoreTypeOther } from "../../../../constants";
 import { ScoreDescriptor } from "../types";

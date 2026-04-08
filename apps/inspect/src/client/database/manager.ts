@@ -1,6 +1,5 @@
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 import Dexie from "dexie";
-
-import { createLogger } from "@tsmono/util";
 
 import { AppDatabase } from "./schema";
 

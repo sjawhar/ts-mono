@@ -1,15 +1,17 @@
-import clsx from "clsx";
-import { FC } from "react";
-
-import { MetaDataGrid, RecordTree } from "@tsmono/inspect-components/content";
-import { ModelTokenTable } from "@tsmono/inspect-components/usage";
+import {
+  MetaDataGrid,
+  RecordTree,
+} from "@sjawhar/inspect-viewer-components/content";
+import { ModelTokenTable } from "@sjawhar/inspect-viewer-components/usage";
 import {
   Card,
   CardBody,
   CardHeader,
   LabeledValue,
-} from "@tsmono/react/components";
-import { formatNumber } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-react/components";
+import { formatNumber } from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import { FC } from "react";
 
 import { ScanResultData } from "../../types";
 

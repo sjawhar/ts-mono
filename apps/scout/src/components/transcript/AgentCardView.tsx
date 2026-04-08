@@ -1,9 +1,11 @@
+import { useTimelineSelect } from "@sjawhar/inspect-viewer-components/transcript";
+import {
+  ExpandablePanel,
+  MarkdownDiv,
+} from "@sjawhar/inspect-viewer-react/components";
+import { formatDurationShort } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, MouseEvent, useCallback, useMemo } from "react";
-
-import { useTimelineSelect } from "@tsmono/inspect-components/transcript";
-import { ExpandablePanel, MarkdownDiv } from "@tsmono/react/components";
-import { formatDurationShort } from "@tsmono/util";
 
 import { formatTokenCount } from "../../app/timeline/utils/swimlaneLayout";
 import { ApplicationIcons } from "../icons";

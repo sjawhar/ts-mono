@@ -1,6 +1,3 @@
-import { GridState } from "ag-grid-community";
-import { StateSnapshot } from "react-virtuoso";
-
 import {
   ApprovalEvent,
   AttachmentData,
@@ -27,7 +24,9 @@ import {
   StoreEvent,
   SubtaskEvent,
   ToolEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
+import { GridState } from "ag-grid-community";
+import { StateSnapshot } from "react-virtuoso";
 
 import {
   EvalHeader,

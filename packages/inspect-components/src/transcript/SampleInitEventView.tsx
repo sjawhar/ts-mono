@@ -1,13 +1,12 @@
-import clsx from "clsx";
-import { FC, ReactNode } from "react";
-
 import type {
   ChatMessage,
   SampleInitEvent,
-} from "@tsmono/inspect-common/types";
-import { ChatView } from "@tsmono/inspect-components/chat";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { formatDateTime, toArray } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-common/types";
+import { ChatView } from "@sjawhar/inspect-viewer-components/chat";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import { formatDateTime, toArray } from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import { FC, ReactNode } from "react";
 
 import { EventPanel } from "./event/EventPanel";
 import { EventSection } from "./event/EventSection";

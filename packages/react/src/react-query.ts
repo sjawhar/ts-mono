@@ -1,4 +1,4 @@
-import { ApiError, isRetryableHttpStatus } from "@tsmono/util";
+import { ApiError, isRetryableHttpStatus } from "@sjawhar/inspect-viewer-util";
 
 declare global {
   // Set by e2e tests to skip retry delays

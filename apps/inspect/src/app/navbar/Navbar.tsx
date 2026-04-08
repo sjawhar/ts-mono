@@ -1,8 +1,11 @@
+import {
+  basename,
+  dirname,
+  ensureTrailingSlash,
+} from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, Fragment, ReactNode, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
-
-import { basename, dirname, ensureTrailingSlash } from "@tsmono/util";
 
 import { useStore } from "../../state/store";
 import { prettyDirUri } from "../../utils/uri";

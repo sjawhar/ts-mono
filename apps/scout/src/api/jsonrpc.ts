@@ -1,4 +1,4 @@
-import { VSCodeApi } from "@tsmono/util";
+import { VSCodeApi } from "@sjawhar/inspect-viewer-util";
 
 import { JsonArray, JsonObject, JsonValue } from "../types/json-value";
 

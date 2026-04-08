@@ -1,8 +1,7 @@
+import type { CompactionEvent } from "@sjawhar/inspect-viewer-common/types";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import { formatDateTime } from "@sjawhar/inspect-viewer-util";
 import { FC } from "react";
-
-import type { CompactionEvent } from "@tsmono/inspect-common/types";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { formatDateTime } from "@tsmono/util";
 
 import styles from "./CompactionEventView.module.css";
 import { EventPanel } from "./event/EventPanel";

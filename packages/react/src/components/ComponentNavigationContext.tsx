@@ -1,7 +1,7 @@
 import { createContext, FC, ReactNode, useContext } from "react";
 
 /**
- * Navigation function required by shared components in `@tsmono/react`.
+ * Navigation function required by shared components in `@sjawhar/inspect-viewer-react`.
  *
  * Each host app provides this via `<ComponentNavigationProvider>` inside its
  * router tree, mapping its own navigation implementation (react-router,

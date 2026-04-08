@@ -1,6 +1,5 @@
+import { getVscodeApi } from "@sjawhar/inspect-viewer-util";
 import { createRoot } from "react-dom/client";
-
-import { getVscodeApi } from "@tsmono/util";
 
 import { App } from "./app/App";
 import api from "./client/api/index";

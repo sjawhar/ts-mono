@@ -1,6 +1,5 @@
+import { EvalError } from "@sjawhar/inspect-viewer-common/types";
 import { FC, RefObject, useMemo, useRef } from "react";
-
-import { EvalError } from "@tsmono/inspect-common/types";
 
 import { kLogViewErrorTabId } from "../../../constants";
 import { TaskErrorCard } from "../error/TaskErrorPanel";

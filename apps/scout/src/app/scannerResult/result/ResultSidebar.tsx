@@ -1,7 +1,9 @@
+import {
+  MarkdownReference,
+  NoContentsPanel,
+} from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { MarkdownReference, NoContentsPanel } from "@tsmono/react/components";
 
 import { ScannerInput } from "../../../types/api-types";
 import { Explanation } from "../../components/Explanation";

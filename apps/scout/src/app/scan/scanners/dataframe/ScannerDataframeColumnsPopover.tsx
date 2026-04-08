@@ -1,8 +1,7 @@
+import { PopOver } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, Fragment, useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-
-import { PopOver } from "@tsmono/react/components";
 
 import { getColumnsParam, updateColumnsParam } from "../../../../router/url";
 import { useStore } from "../../../../state/store";

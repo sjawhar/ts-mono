@@ -1,7 +1,10 @@
+import {
+  EvalPlan,
+  EvalScore,
+  EvalSpec,
+} from "@sjawhar/inspect-viewer-common/types";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { EvalPlan, EvalScore, EvalSpec } from "@tsmono/inspect-common/types";
 
 import { DatasetDetailView } from "./DatasetDetailView";
 import styles from "./PlanDetailView.module.css";

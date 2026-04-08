@@ -1,13 +1,12 @@
-import clsx from "clsx";
-import { FC } from "react";
-
-import { RecordTree } from "@tsmono/inspect-components/content";
+import { RecordTree } from "@sjawhar/inspect-viewer-components/content";
 import {
   Card,
   CardBody,
   LabeledValue,
   NoContentsPanel,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC } from "react";
 
 import { ScanResultData } from "../../types";
 

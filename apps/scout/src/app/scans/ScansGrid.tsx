@@ -1,6 +1,5 @@
+import { toRelativePath } from "@sjawhar/inspect-viewer-util";
 import { FC, useEffect, useMemo, useRef } from "react";
-
-import { toRelativePath } from "@tsmono/util";
 
 import { ScalarValue } from "../../api/api";
 import { scanRoute } from "../../router/url";

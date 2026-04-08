@@ -1,3 +1,6 @@
+import { Modal } from "@sjawhar/inspect-viewer-react/components";
+import { useDocumentTitle } from "@sjawhar/inspect-viewer-react/hooks";
+import { ApiError } from "@sjawhar/inspect-viewer-util";
 import { useQueryClient } from "@tanstack/react-query";
 import {
   VscodeButton,
@@ -5,10 +8,6 @@ import {
 } from "@vscode-elements/react-elements";
 import { FC, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useBlocker } from "react-router-dom";
-
-import { Modal } from "@tsmono/react/components";
-import { useDocumentTitle } from "@tsmono/react/hooks";
-import { ApiError } from "@tsmono/util";
 
 import { AppConfig, ProjectConfigInput } from "../../types/api-types";
 import { appAliasedPath } from "../server/useAppConfig";

@@ -1,6 +1,5 @@
+import { inputString } from "@sjawhar/inspect-viewer-common/utils";
 import { compileExpression } from "filtrex";
-
-import { inputString } from "@tsmono/inspect-common/utils";
 
 import { EvalSampleScore } from "../../../@types/extraInspect";
 import { FilterError, ScoreLabel } from "../../../app/types";

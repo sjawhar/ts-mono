@@ -1,5 +1,5 @@
-import { EvalSample } from "@tsmono/inspect-common/types";
-import { estimateSize } from "@tsmono/util";
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
+import { estimateSize } from "@sjawhar/inspect-viewer-util";
 
 import { PersistedState } from "./store";
 

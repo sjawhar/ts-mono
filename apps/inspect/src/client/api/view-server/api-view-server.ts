@@ -1,4 +1,4 @@
-import { LogInfo } from "@tsmono/inspect-common/types";
+import { LogInfo } from "@sjawhar/inspect-viewer-common/types";
 
 import { EvalScores } from "../../../@types/extraInspect";
 import { asyncJsonParse } from "../../../utils/json-worker";

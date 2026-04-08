@@ -1,13 +1,12 @@
-import clsx from "clsx";
-import { ReactNode, useEffect, useMemo, useRef, useState } from "react";
-import { useSearchParams } from "react-router-dom";
-
 import {
   JSONPanel,
   SegmentedControl,
   TabPanel,
   TabSet,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { ReactNode, useEffect, useMemo, useRef, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 
 import { ApplicationIcons } from "../../components/icons";
 import { useStore } from "../../state/store";

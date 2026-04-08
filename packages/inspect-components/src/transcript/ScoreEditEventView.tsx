@@ -1,9 +1,11 @@
+import type { ScoreEditEvent } from "@sjawhar/inspect-viewer-common/types";
+import {
+  RecordTree,
+  RenderedText,
+} from "@sjawhar/inspect-viewer-components/content";
+import { formatDateTime } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, Fragment } from "react";
-
-import type { ScoreEditEvent } from "@tsmono/inspect-common/types";
-import { RecordTree, RenderedText } from "@tsmono/inspect-components/content";
-import { formatDateTime } from "@tsmono/util";
 
 import { EventPanel } from "./event/EventPanel";
 import { TranscriptIcons } from "./icons";

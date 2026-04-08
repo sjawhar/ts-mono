@@ -1,8 +1,7 @@
+import type { ToolCallContent } from "@sjawhar/inspect-viewer-common/types";
+import { usePrismHighlight } from "@sjawhar/inspect-viewer-react/hooks";
 import clsx from "clsx";
 import { FC, Ref, useRef } from "react";
-
-import type { ToolCallContent } from "@tsmono/inspect-common/types";
-import { usePrismHighlight } from "@tsmono/react/hooks";
 
 import { RenderedText } from "../../content/RenderedText";
 

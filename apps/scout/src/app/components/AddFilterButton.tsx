@@ -1,7 +1,6 @@
+import { PopOver } from "@sjawhar/inspect-viewer-react/components";
 import { clsx } from "clsx";
 import { FC, useRef } from "react";
-
-import { PopOver } from "@tsmono/react/components";
 
 import { ScalarValue } from "../../api/api";
 import { ApplicationIcons } from "../../components/icons";

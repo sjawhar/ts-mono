@@ -23,7 +23,7 @@ export type {
   EvalSet,
   LogHandle,
   LogFilesResponse,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 // State Store
 export { initializeStore } from "./state/store";

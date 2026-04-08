@@ -1,3 +1,4 @@
+import { centerTruncate } from "@sjawhar/inspect-viewer-util";
 import {
   AllCommunityModule,
   FilterChangedEvent,
@@ -12,8 +13,6 @@ import {
 import { AgGridReact } from "ag-grid-react";
 import { ColumnTable } from "arquero";
 import { FC, useCallback, useEffect, useMemo, useRef } from "react";
-
-import { centerTruncate } from "@tsmono/util";
 
 import { useStore } from "../../state/store";
 import { useSetDataframeGridApi } from "../scan/scanners/dataframe/DataframeGridApiContext";

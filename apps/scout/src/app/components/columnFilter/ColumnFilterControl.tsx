@@ -1,6 +1,5 @@
+import { PopOver } from "@sjawhar/inspect-viewer-react/components";
 import { FC, useCallback, useRef } from "react";
-
-import { PopOver } from "@tsmono/react/components";
 
 import { ScalarValue } from "../../../api/api";
 import type { SimpleCondition } from "../../../query/types";

@@ -1,3 +1,9 @@
+import {
+  ConfirmationDialog,
+  ErrorPanel,
+  LoadingBar,
+  MenuActionButton,
+} from "@sjawhar/inspect-viewer-react/components";
 import { skipToken, useQueryClient } from "@tanstack/react-query";
 import {
   VscodeDivider,
@@ -7,13 +13,6 @@ import {
 import clsx from "clsx";
 import React, { FC, ReactNode, useCallback, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-
-import {
-  ConfirmationDialog,
-  ErrorPanel,
-  LoadingBar,
-  MenuActionButton,
-} from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../../components/icons";
 import {

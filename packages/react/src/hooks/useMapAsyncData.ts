@@ -1,6 +1,5 @@
+import { AsyncData, loading } from "@sjawhar/inspect-viewer-util";
 import { useMemo } from "react";
-
-import { AsyncData, loading } from "@tsmono/util";
 
 /**
  * The `useMapAsyncData` function is a custom React hook that transforms the data

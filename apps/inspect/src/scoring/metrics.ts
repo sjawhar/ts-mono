@@ -1,4 +1,4 @@
-import { EvalResults } from "@tsmono/inspect-common/types";
+import { EvalResults } from "@sjawhar/inspect-viewer-common/types";
 
 import { EvalScores } from "../@types/extraInspect";
 

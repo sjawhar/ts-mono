@@ -1,3 +1,22 @@
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
+import { ChatViewVirtualList } from "@sjawhar/inspect-viewer-components/chat";
+import {
+  DisplayModeContext,
+  RecordTree,
+} from "@sjawhar/inspect-viewer-components/content";
+import { ModelTokenTable } from "@sjawhar/inspect-viewer-components/usage";
+import {
+  ANSIDisplay,
+  Card,
+  CardBody,
+  CardHeader,
+  NoContentsPanel,
+  TabPanel,
+  TabSet,
+  ToolButton,
+  ToolDropdownButton,
+} from "@sjawhar/inspect-viewer-react/components";
+import { isVscode } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import {
   FC,
@@ -11,26 +30,6 @@ import {
   useState,
 } from "react";
 import { useNavigate } from "react-router-dom";
-
-import { EvalSample } from "@tsmono/inspect-common/types";
-import { ChatViewVirtualList } from "@tsmono/inspect-components/chat";
-import {
-  DisplayModeContext,
-  RecordTree,
-} from "@tsmono/inspect-components/content";
-import { ModelTokenTable } from "@tsmono/inspect-components/usage";
-import {
-  ANSIDisplay,
-  Card,
-  CardBody,
-  CardHeader,
-  NoContentsPanel,
-  TabPanel,
-  TabSet,
-  ToolButton,
-  ToolDropdownButton,
-} from "@tsmono/react/components";
-import { isVscode } from "@tsmono/util";
 
 import { Events } from "../../@types/extraInspect";
 import { SampleSummary } from "../../client/api/types";

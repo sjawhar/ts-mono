@@ -1,10 +1,9 @@
-import { FC, useEffect, useState } from "react";
-
 import {
   ErrorPanel,
   LoadingBar,
   NoContentsPanel,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import { FC, useEffect, useState } from "react";
 
 import { ApplicationIcons } from "../../components/icons";
 import {

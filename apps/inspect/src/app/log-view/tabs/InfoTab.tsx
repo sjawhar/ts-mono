@@ -1,12 +1,11 @@
-import { FC, RefObject, useMemo, useRef } from "react";
-
 import {
   EvalError,
   EvalPlan,
   EvalResults,
   EvalSpec,
   EvalStats,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
+import { FC, RefObject, useMemo, useRef } from "react";
 
 import { EvalLogStatus } from "../../../@types/extraInspect";
 import { SampleSummary } from "../../../client/api/types";

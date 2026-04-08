@@ -1,3 +1,4 @@
+import { STABLE_EMPTY_OBJECT } from "@sjawhar/inspect-viewer-react/hooks";
 import {
   VscodeCheckbox,
   VscodeFormHelper,
@@ -5,8 +6,6 @@ import {
   VscodeTextfield,
 } from "@vscode-elements/react-elements";
 import { FC, useCallback, useEffect, useRef, useState } from "react";
-
-import { STABLE_EMPTY_OBJECT } from "@tsmono/react/hooks";
 
 import {
   BatchConfig,

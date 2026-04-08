@@ -1,7 +1,6 @@
+import { useDocumentTitle } from "@sjawhar/inspect-viewer-react/hooks";
 import { clsx } from "clsx";
 import { FC, useState } from "react";
-
-import { useDocumentTitle } from "@tsmono/react/hooks";
 
 import { ActiveScanView } from "./ActiveScanView";
 import { DefineScannerSection } from "./DefineScannerSection";

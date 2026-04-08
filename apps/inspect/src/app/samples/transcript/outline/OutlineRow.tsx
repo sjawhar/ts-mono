@@ -1,12 +1,11 @@
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import { kSandboxSignalName } from "@sjawhar/inspect-viewer-components/transcript";
+import type { EventNode } from "@sjawhar/inspect-viewer-components/transcript";
+import { PopOver, PulsingDots } from "@sjawhar/inspect-viewer-react/components";
+import { parsePackageName } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode, useRef } from "react";
 import { Link } from "react-router-dom";
-
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { kSandboxSignalName } from "@tsmono/inspect-components/transcript";
-import type { EventNode } from "@tsmono/inspect-components/transcript";
-import { PopOver, PulsingDots } from "@tsmono/react/components";
-import { parsePackageName } from "@tsmono/util";
 
 import {
   useCollapseSampleEvent,

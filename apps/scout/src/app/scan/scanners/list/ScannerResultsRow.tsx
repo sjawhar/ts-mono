@@ -1,8 +1,7 @@
+import { MarkdownReference } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, memo } from "react";
 import { useSearchParams } from "react-router-dom";
-
-import { MarkdownReference } from "@tsmono/react/components";
 
 import { useLoggingNavigate } from "../../../../debugging/navigationDebugging";
 import { scanResultRoute } from "../../../../router/url";

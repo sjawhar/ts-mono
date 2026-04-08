@@ -5,9 +5,9 @@ import { createRoot } from "react-dom/client";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { defaultRetry } from "@tsmono/react";
-import { ExtendedFindProvider } from "@tsmono/react/components";
-import { getVscodeApi } from "@tsmono/util";
+import { defaultRetry } from "@sjawhar/inspect-viewer-react";
+import { ExtendedFindProvider } from "@sjawhar/inspect-viewer-react/components";
+import { getVscodeApi } from "@sjawhar/inspect-viewer-util";
 
 import { ScoutApiV2 } from "./api/api";
 import { apiScoutServer } from "./api/api-scout-server";

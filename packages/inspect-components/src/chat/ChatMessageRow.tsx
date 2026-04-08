@@ -1,7 +1,6 @@
+import type { ChatMessageTool } from "@sjawhar/inspect-viewer-common/types";
 import clsx from "clsx";
 import { FC, Fragment, ReactNode } from "react";
-
-import type { ChatMessageTool } from "@tsmono/inspect-common/types";
 
 import { ChatMessage } from "./ChatMessage";
 import styles from "./ChatMessageRow.module.css";

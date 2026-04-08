@@ -1,5 +1,5 @@
 /* eslint-disable */
-import type { ToolCallContent } from "@tsmono/inspect-common/types";
+import type { ToolCallContent } from "@sjawhar/inspect-viewer-common/types";
 
 export const kToolTodoContentType = "agent/todo-list";
 

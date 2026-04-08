@@ -1,8 +1,7 @@
+import { basename, formatPrettyDecimal } from "@sjawhar/inspect-viewer-util";
 import type { ColDef, ICellRendererParams } from "ag-grid-community";
 import clsx from "clsx";
 import { useEffect, useMemo } from "react";
-
-import { basename, formatPrettyDecimal } from "@tsmono/util";
 
 import { useStore } from "../../../../state/store";
 import { parseLogFileName } from "../../../../utils/evallog";

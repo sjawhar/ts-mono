@@ -1,8 +1,7 @@
+import type { SubtaskEvent } from "@sjawhar/inspect-viewer-common/types";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import type { SubtaskEvent } from "@tsmono/inspect-common/types";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
 
 import { EventPanel } from "./event/EventPanel";
 import { formatTiming, formatTitle } from "./event/utils";

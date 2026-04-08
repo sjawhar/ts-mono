@@ -1,5 +1,5 @@
-import { EvalSample } from "@tsmono/inspect-common/types";
-import { expandEvents } from "@tsmono/inspect-common/utils";
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
+import { expandEvents } from "@sjawhar/inspect-viewer-common/utils";
 
 import { resolveAttachments } from "../utils/attachments";
 

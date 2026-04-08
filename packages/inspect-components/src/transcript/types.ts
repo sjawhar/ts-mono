@@ -20,7 +20,7 @@ import type {
   StoreEvent,
   SubtaskEvent,
   ToolEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 import { SPAN_BEGIN, STEP, TYPE_SUBTASK, TYPE_TOOL } from "./transform/utils";
 

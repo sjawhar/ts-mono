@@ -1,7 +1,6 @@
+import { Modal } from "@sjawhar/inspect-viewer-react/components";
 import { VscodeButton, VscodeCheckbox } from "@vscode-elements/react-elements";
 import { CSSProperties, FC, useCallback, useMemo, useState } from "react";
-
-import { Modal } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../../components/icons";
 import { useStore } from "../../../state/store";

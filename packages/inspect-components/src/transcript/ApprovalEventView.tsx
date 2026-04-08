@@ -1,6 +1,5 @@
+import type { ApprovalEvent } from "@sjawhar/inspect-viewer-common/types";
 import { FC } from "react";
-
-import type { ApprovalEvent } from "@tsmono/inspect-common/types";
 
 import { EventRow } from "./event/EventRow";
 import { TranscriptIcons } from "./icons";

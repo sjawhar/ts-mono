@@ -5,7 +5,7 @@ import type {
   EvalSpec,
   EvalStats,
   ModelOutput,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 import type {
   LogContents,

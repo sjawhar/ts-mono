@@ -1,3 +1,15 @@
+import {
+  collapseScoring,
+  collapseTurns,
+  flatTree,
+  kTranscriptOutlineCollapseScope,
+  makeTurns,
+} from "@sjawhar/inspect-viewer-components/transcript";
+import type { EventNode } from "@sjawhar/inspect-viewer-components/transcript";
+import {
+  useScrollTrack,
+  useVirtuosoState,
+} from "@sjawhar/inspect-viewer-react/hooks";
 import clsx from "clsx";
 import {
   CSSProperties,
@@ -9,16 +21,6 @@ import {
   useRef,
 } from "react";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
-
-import {
-  collapseScoring,
-  collapseTurns,
-  flatTree,
-  kTranscriptOutlineCollapseScope,
-  makeTurns,
-} from "@tsmono/inspect-components/transcript";
-import type { EventNode } from "@tsmono/inspect-components/transcript";
-import { useScrollTrack, useVirtuosoState } from "@tsmono/react/hooks";
 
 import { useStore } from "../../../../state/store";
 import { useSampleDetailNavigation } from "../../../routing/sampleNavigation";

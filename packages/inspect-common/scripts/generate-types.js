@@ -42,7 +42,7 @@ const importDecl = ts.factory.createImportDeclaration(
       ),
     ])
   ),
-  ts.factory.createStringLiteral("@tsmono/util")
+  ts.factory.createStringLiteral("@sjawhar/inspect-viewer-util")
 );
 
 const HEADER = `/**

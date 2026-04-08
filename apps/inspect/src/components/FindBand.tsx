@@ -1,3 +1,5 @@
+import { useExtendedFind } from "@sjawhar/inspect-viewer-react/components";
+import { debounce } from "@sjawhar/inspect-viewer-util";
 import {
   FC,
   KeyboardEvent,
@@ -7,9 +9,6 @@ import {
   useRef,
   useState,
 } from "react";
-
-import { useExtendedFind } from "@tsmono/react/components";
-import { debounce } from "@tsmono/util";
 
 import { useStore } from "../state/store";
 import { findScrollableParent, scrollRangeToCenter } from "../utils/dom";

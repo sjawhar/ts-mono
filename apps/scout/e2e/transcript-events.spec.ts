@@ -5,9 +5,8 @@
  * transcript Events tab. They serve as a baseline before extracting
  * transcript components into the shared inspect-components package.
  */
+import { encodeBase64Url } from "@sjawhar/inspect-viewer-util";
 import { http, HttpResponse } from "msw";
-
-import { encodeBase64Url } from "@tsmono/util";
 
 import type {
   ErrorEvent,

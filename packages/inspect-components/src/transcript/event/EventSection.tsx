@@ -1,7 +1,6 @@
+import { CopyButton } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { CopyButton } from "@tsmono/react/components";
 
 import styles from "./EventSection.module.css";
 

@@ -1,11 +1,10 @@
+import { useDebouncedCallback } from "@sjawhar/inspect-viewer-react/hooks";
 import {
   VscodeRadio,
   VscodeRadioGroup,
   VscodeTextfield,
 } from "@vscode-elements/react-elements";
 import { FC, useEffect, useState } from "react";
-
-import { useDebouncedCallback } from "@tsmono/react/hooks";
 
 import { JsonValue } from "../../../types/api-types";
 

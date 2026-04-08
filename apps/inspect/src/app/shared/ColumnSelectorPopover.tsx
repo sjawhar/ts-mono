@@ -1,8 +1,7 @@
+import { PopOver } from "@sjawhar/inspect-viewer-react/components";
 import { ColDef } from "ag-grid-community";
 import { clsx } from "clsx";
 import { FC, useMemo } from "react";
-
-import { PopOver } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../appearance/icons";
 import { getFieldKey } from "../shared/gridUtils";

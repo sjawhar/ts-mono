@@ -1,3 +1,4 @@
+import { filename } from "@sjawhar/inspect-viewer-util";
 import {
   ColDef,
   ICellRendererParams,
@@ -5,8 +6,6 @@ import {
   ValueGetterParams,
 } from "ag-grid-community";
 import { useEffect, useMemo } from "react";
-
-import { filename } from "@tsmono/util";
 
 import { LogDetails } from "../../../client/api/types";
 import { useStore } from "../../../state/store";

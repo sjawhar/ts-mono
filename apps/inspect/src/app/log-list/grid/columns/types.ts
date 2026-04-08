@@ -1,4 +1,4 @@
-import { LogHandle } from "@tsmono/inspect-common";
+import { LogHandle } from "@sjawhar/inspect-viewer-common";
 
 export interface LogListRow {
   id: string;

@@ -1,18 +1,17 @@
-import clsx from "clsx";
-import { FC, useMemo } from "react";
-
 import type {
   ApprovalEvent,
   ModelEvent,
   ToolEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 import {
   ChatView,
   resolveToolInput,
   substituteToolCallContent,
   ToolCallView,
-} from "@tsmono/inspect-components/chat";
-import { PulsingDots } from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-components/chat";
+import { PulsingDots } from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC, useMemo } from "react";
 
 import { ApprovalEventView } from "./ApprovalEventView";
 import { EventPanel } from "./event/EventPanel";

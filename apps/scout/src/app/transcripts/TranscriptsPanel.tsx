@@ -1,9 +1,11 @@
+import {
+  ErrorPanel,
+  LoadingBar,
+} from "@sjawhar/inspect-viewer-react/components";
+import { useDocumentTitle } from "@sjawhar/inspect-viewer-react/hooks";
 import { skipToken } from "@tanstack/react-query";
 import clsx from "clsx";
 import { FC, useCallback, useEffect, useMemo } from "react";
-
-import { ErrorPanel, LoadingBar } from "@tsmono/react/components";
-import { useDocumentTitle } from "@tsmono/react/hooks";
 
 import { useStore } from "../../state/store";
 import { TranscriptInfo } from "../../types/api-types";

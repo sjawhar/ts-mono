@@ -1,3 +1,5 @@
+import { CopyButton } from "@sjawhar/inspect-viewer-react/components";
+import { useProperty } from "@sjawhar/inspect-viewer-react/hooks";
 import clsx from "clsx";
 import {
   FC,
@@ -7,9 +9,6 @@ import {
   useCallback,
   useState,
 } from "react";
-
-import { CopyButton } from "@tsmono/react/components";
-import { useProperty } from "@tsmono/react/hooks";
 
 import { useStickyObserver } from "../useStickyObserver";
 

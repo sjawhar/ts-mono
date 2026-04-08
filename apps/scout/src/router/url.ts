@@ -1,4 +1,4 @@
-import { decodeBase64Url, encodeBase64Url } from "@tsmono/util";
+import { decodeBase64Url, encodeBase64Url } from "@sjawhar/inspect-viewer-util";
 
 // Route URL patterns
 export const kScansRootRouteUrlPattern = "/scans";

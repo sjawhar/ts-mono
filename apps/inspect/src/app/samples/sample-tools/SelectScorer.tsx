@@ -1,7 +1,6 @@
+import { PopOver, ToolButton } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, useCallback, useMemo, useRef, useState } from "react";
-
-import { PopOver, ToolButton } from "@tsmono/react/components";
 
 import { ScoreLabel } from "../../../app/types";
 import { ApplicationIcons } from "../../appearance/icons";

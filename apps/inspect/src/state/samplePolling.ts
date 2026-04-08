@@ -1,7 +1,6 @@
+import { AttachmentData } from "@sjawhar/inspect-viewer-common/types";
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 import { StoreApi, UseBoundStore } from "zustand";
-
-import { AttachmentData } from "@tsmono/inspect-common/types";
-import { createLogger } from "@tsmono/util";
 
 import { Event } from "../app/types";
 import {

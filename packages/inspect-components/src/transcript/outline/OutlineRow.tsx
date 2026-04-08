@@ -1,9 +1,12 @@
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import { PulsingDots } from "@sjawhar/inspect-viewer-react/components";
+import {
+  formatDateTime,
+  formatTime,
+  parsePackageName,
+} from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { PulsingDots } from "@tsmono/react/components";
-import { formatDateTime, formatTime, parsePackageName } from "@tsmono/util";
 
 import { TranscriptIcons } from "../icons";
 import { kSandboxSignalName } from "../transform/fixups";

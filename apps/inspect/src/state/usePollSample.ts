@@ -1,6 +1,5 @@
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 import { useEffect } from "react";
-
-import { createLogger } from "@tsmono/util";
 
 import { SampleSummary } from "../client/api/types";
 

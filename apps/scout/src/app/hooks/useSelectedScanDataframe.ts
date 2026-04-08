@@ -1,7 +1,6 @@
+import { AsyncData } from "@sjawhar/inspect-viewer-util";
 import { skipToken } from "@tanstack/react-query";
 import { ColumnTable } from "arquero";
-
-import { AsyncData } from "@tsmono/util";
 
 import { useScanDataframe } from "../server/useScanDataframe";
 

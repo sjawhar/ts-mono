@@ -1,7 +1,6 @@
+import type { EventType } from "@sjawhar/inspect-viewer-components/transcript";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import type { EventType } from "@tsmono/inspect-components/transcript";
 
 import {
   AppConfig,

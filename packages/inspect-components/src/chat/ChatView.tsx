@@ -1,7 +1,6 @@
+import type { ChatMessage as ChatMessageType } from "@sjawhar/inspect-viewer-common/types";
 import clsx from "clsx";
 import { FC } from "react";
-
-import type { ChatMessage as ChatMessageType } from "@tsmono/inspect-common/types";
 
 import { ChatMessageRow } from "./ChatMessageRow";
 import { resolveMessages } from "./messages";

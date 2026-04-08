@@ -1,6 +1,5 @@
+import { useStickyScrollContainer } from "@sjawhar/inspect-viewer-react/components";
 import { useEffect, useRef, useState } from "react";
-
-import { useStickyScrollContainer } from "@tsmono/react/components";
 
 // Sticky observer using scroll events
 // workaround for https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@container#stuck

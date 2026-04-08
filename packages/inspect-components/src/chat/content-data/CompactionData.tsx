@@ -1,7 +1,6 @@
+import { ExpandablePanel } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { ExpandablePanel } from "@tsmono/react/components";
 
 import { MetaDataGrid } from "../../content/MetaDataGrid";
 import { RenderedText } from "../../content/RenderedText";

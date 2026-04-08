@@ -1,7 +1,6 @@
+import { ToolButton } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { ButtonHTMLAttributes, forwardRef, ReactNode } from "react";
-
-import { ToolButton } from "@tsmono/react/components";
 
 import styles from "./NavbarButton.module.css";
 

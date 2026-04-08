@@ -1,14 +1,16 @@
-import { skipToken } from "@tanstack/react-query";
-import clsx from "clsx";
-import { FC, useRef } from "react";
-
-import { ErrorPanel, LoadingBar } from "@tsmono/react/components";
+import {
+  ErrorPanel,
+  LoadingBar,
+} from "@sjawhar/inspect-viewer-react/components";
 import {
   useDocumentTitle,
   useRequiredParams,
   useScrollDirection,
-} from "@tsmono/react/hooks";
-import { ApiError } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-react/hooks";
+import { ApiError } from "@sjawhar/inspect-viewer-util";
+import { skipToken } from "@tanstack/react-query";
+import clsx from "clsx";
+import { FC, useRef } from "react";
 
 import { useStore } from "../../state/store";
 import { TranscriptsNavbar } from "../components/TranscriptsNavbar";

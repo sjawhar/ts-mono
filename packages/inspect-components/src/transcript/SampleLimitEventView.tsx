@@ -1,10 +1,9 @@
-import clsx from "clsx";
-import { FC } from "react";
-
 import type {
   EvalSampleLimit,
   SampleLimitEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
+import clsx from "clsx";
+import { FC } from "react";
 
 import { EventPanel } from "./event/EventPanel";
 import { TranscriptIcons } from "./icons";

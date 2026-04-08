@@ -1,6 +1,5 @@
+import { dirname, getVscodeApi } from "@sjawhar/inspect-viewer-util";
 import JSON5 from "json5";
-
-import { dirname, getVscodeApi } from "@tsmono/util";
 
 import { clientApi } from "./client-api";
 import staticHttpApi from "./static-http/api-static-http";

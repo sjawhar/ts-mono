@@ -1,16 +1,15 @@
-import clsx from "clsx";
-import { FC, memo, useState } from "react";
-
 import type {
   ChatMessageTool,
   ContentImage,
   ContentText,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 import {
   CopyButton,
   ExpandablePanel,
   LabeledValue,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC, memo, useState } from "react";
 
 import { RecordTree } from "../content/RecordTree";
 

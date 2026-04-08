@@ -1,7 +1,6 @@
+import { usePrismHighlight } from "@sjawhar/inspect-viewer-react/hooks";
 import clsx from "clsx";
 import { FC, useRef } from "react";
-
-import { usePrismHighlight } from "@tsmono/react/hooks";
 
 import styles from "./CodePanel.module.css";
 

@@ -1,3 +1,8 @@
+import {
+  EmptyPanel,
+  TabPanel,
+  TabSet,
+} from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import {
   createElement,
@@ -7,8 +12,6 @@ import {
   useCallback,
   useRef,
 } from "react";
-
-import { EmptyPanel, TabPanel, TabSet } from "@tsmono/react/components";
 
 import { useEvalSpec, useRefreshLog } from "../../state/hooks";
 import { useStore } from "../../state/store";

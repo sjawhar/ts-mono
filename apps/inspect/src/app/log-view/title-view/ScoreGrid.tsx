@@ -1,7 +1,6 @@
+import { formatPrettyDecimal } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { formatPrettyDecimal } from "@tsmono/util";
 
 import { ScoreSummary } from "../../../scoring/types";
 

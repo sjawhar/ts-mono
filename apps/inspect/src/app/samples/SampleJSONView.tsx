@@ -1,8 +1,10 @@
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
+import {
+  JSONPanel,
+  NoContentsPanel,
+} from "@sjawhar/inspect-viewer-react/components";
+import { estimateSize } from "@sjawhar/inspect-viewer-util";
 import { FC } from "react";
-
-import { EvalSample } from "@tsmono/inspect-common/types";
-import { JSONPanel, NoContentsPanel } from "@tsmono/react/components";
-import { estimateSize } from "@tsmono/util";
 
 const MAX_JSON_DISPLAY_SIZE = 25 * 1024 * 1024;
 

@@ -1,8 +1,11 @@
+import { useProperty } from "@sjawhar/inspect-viewer-react/hooks";
+import {
+  formatDuration,
+  formatDurationShort,
+  formatTime,
+} from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, useCallback, useRef, useState } from "react";
-
-import { useProperty } from "@tsmono/react/hooks";
-import { formatDuration, formatDurationShort, formatTime } from "@tsmono/util";
 
 import type { TimelineSpan } from "../../../components/transcript/timeline";
 import { computeBarPosition, formatTokenCount } from "../utils/swimlaneLayout";

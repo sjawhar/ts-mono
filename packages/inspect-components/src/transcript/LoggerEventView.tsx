@@ -1,9 +1,8 @@
+import type { LoggerEvent } from "@sjawhar/inspect-viewer-common/types";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import { parsedJson as maybeParseJson } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC } from "react";
-
-import type { LoggerEvent } from "@tsmono/inspect-common/types";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { parsedJson as maybeParseJson } from "@tsmono/util";
 
 import { EventRow } from "./event/EventRow";
 import { TranscriptIcons } from "./icons";

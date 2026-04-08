@@ -1,10 +1,9 @@
+import { inputString } from "@sjawhar/inspect-viewer-common/utils";
+import { RenderedText } from "@sjawhar/inspect-viewer-components/content";
+import { arrayToString } from "@sjawhar/inspect-viewer-util";
 import type { ColDef, ICellRendererParams } from "ag-grid-community";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { inputString } from "@tsmono/inspect-common/utils";
-import { RenderedText } from "@tsmono/inspect-components/content";
-import { arrayToString } from "@tsmono/util";
 
 import { ScoreLabel } from "../../../app/types";
 import { truncateMarkdown } from "../../../utils/markdown";

@@ -1,11 +1,10 @@
 // @vitest-environment jsdom
+import { encodeBase64Url } from "@sjawhar/inspect-viewer-util";
 import { skipToken } from "@tanstack/react-query";
 import { renderHook, waitFor } from "@testing-library/react";
 import { http, HttpResponse, passthrough } from "msw";
 import { beforeAll, expect, it } from "vitest";
 import { ZstdCodec } from "zstd-codec";
-
-import { encodeBase64Url } from "@tsmono/util";
 
 import { server } from "../../test/setup-msw";
 import { createTestWrapper } from "../../test/test-utils";

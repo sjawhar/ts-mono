@@ -1,4 +1,4 @@
-import { expandEvents } from "@tsmono/inspect-common/utils";
+import { expandEvents } from "@sjawhar/inspect-viewer-common/utils";
 
 import type {
   Event,

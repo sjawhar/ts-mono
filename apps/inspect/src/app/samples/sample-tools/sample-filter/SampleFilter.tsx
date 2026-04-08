@@ -12,11 +12,10 @@ import {
   TransactionSpec,
 } from "@codemirror/state";
 import { tags } from "@lezer/highlight";
+import { debounce } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { EditorView, minimalSetup } from "codemirror";
 import { FC, useCallback, useEffect, useMemo, useRef } from "react";
-
-import { debounce } from "@tsmono/util";
 
 import { useEvalDescriptor } from "../../../../state/hooks";
 import { useStore } from "../../../../state/store";

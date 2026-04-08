@@ -1,4 +1,4 @@
-import { formatPrettyDecimal, isNumeric } from "@tsmono/util";
+import { formatPrettyDecimal, isNumeric } from "@sjawhar/inspect-viewer-util";
 
 import { ScoreValue } from "../../../../@types/extraInspect";
 import { kScoreTypeList } from "../../../../constants";

@@ -1,6 +1,5 @@
+import { ToolButton } from "@sjawhar/inspect-viewer-react/components";
 import { forwardRef, useCallback } from "react";
-
-import { ToolButton } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../../../components/icons";
 import { useStore } from "../../../../state/store";

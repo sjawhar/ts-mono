@@ -1,9 +1,8 @@
 // TODO: lint @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-assignment
 /* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-assignment */
+import { MarkdownReference } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { CSSProperties, FC, Fragment, useState } from "react";
-
-import { MarkdownReference } from "@tsmono/react/components";
 
 import styles from "./MetadataGrid.module.css";
 import { RenderedContent } from "./RenderedContent";

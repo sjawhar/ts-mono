@@ -1,3 +1,5 @@
+import { EarlyStoppingSummary } from "@sjawhar/inspect-viewer-common/types";
+import { formatNoDecimal } from "@sjawhar/inspect-viewer-util";
 import type {
   CellMouseDownEvent,
   ColumnResizedEvent,
@@ -16,9 +18,6 @@ import {
   useMemo,
   useRef,
 } from "react";
-
-import { EarlyStoppingSummary } from "@tsmono/inspect-common/types";
-import { formatNoDecimal } from "@tsmono/util";
 
 import { MessageBand } from "../../../components/MessageBand";
 import {

@@ -1,10 +1,12 @@
+import {
+  EvalSample,
+  ProvenanceData,
+} from "@sjawhar/inspect-viewer-common/types";
+import { inputString } from "@sjawhar/inspect-viewer-common/utils";
+import { RenderedText } from "@sjawhar/inspect-viewer-components/content";
+import { arrayToString } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { EvalSample, ProvenanceData } from "@tsmono/inspect-common/types";
-import { inputString } from "@tsmono/inspect-common/utils";
-import { RenderedText } from "@tsmono/inspect-components/content";
-import { arrayToString } from "@tsmono/util";
 
 import {
   EvalSampleTarget,

@@ -1,6 +1,5 @@
+import { parsePackageName } from "@sjawhar/inspect-viewer-util";
 import { useMemo } from "react";
-
-import { parsePackageName } from "@tsmono/util";
 
 import { EventNode } from "../types";
 

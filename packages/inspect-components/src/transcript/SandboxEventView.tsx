@@ -1,12 +1,11 @@
-import clsx from "clsx";
-import { FC } from "react";
-
-import type { SandboxEvent } from "@tsmono/inspect-common/types";
+import type { SandboxEvent } from "@sjawhar/inspect-viewer-common/types";
 import {
   MetaDataGrid,
   RenderedContent,
-} from "@tsmono/inspect-components/content";
-import { ExpandablePanel } from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-components/content";
+import { ExpandablePanel } from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC } from "react";
 
 import { EventPanel } from "./event/EventPanel";
 import { EventSection } from "./event/EventSection";

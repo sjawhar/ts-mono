@@ -1,6 +1,5 @@
+import { formatTime } from "@sjawhar/inspect-viewer-util";
 import { ChangeEvent, FC, useMemo } from "react";
-
-import { formatTime } from "@tsmono/util";
 
 import styles from "./ColumnFilterEditor.module.css";
 

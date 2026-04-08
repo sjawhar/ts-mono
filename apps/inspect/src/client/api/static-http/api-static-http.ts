@@ -1,5 +1,5 @@
-import { EvalSet } from "@tsmono/inspect-common/types";
-import { fetchRange } from "@tsmono/util";
+import { EvalSet } from "@sjawhar/inspect-viewer-common/types";
+import { fetchRange } from "@sjawhar/inspect-viewer-util";
 
 import { fetchSize } from "../../remote/remoteZipFile";
 import { download_file } from "../shared/api-shared";

@@ -1,18 +1,17 @@
-import clsx from "clsx";
-import { FC, Fragment, useMemo, useRef } from "react";
-
 import type {
   ChatMessage,
   ModelCall,
   ModelEvent,
   ToolChoice,
   ToolInfo,
-} from "@tsmono/inspect-common/types";
-import { ChatView } from "@tsmono/inspect-components/chat";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { ModelUsagePanel } from "@tsmono/inspect-components/usage";
-import { PulsingDots } from "@tsmono/react/components";
-import { usePrismHighlight } from "@tsmono/react/hooks";
+} from "@sjawhar/inspect-viewer-common/types";
+import { ChatView } from "@sjawhar/inspect-viewer-components/chat";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import { ModelUsagePanel } from "@sjawhar/inspect-viewer-components/usage";
+import { PulsingDots } from "@sjawhar/inspect-viewer-react/components";
+import { usePrismHighlight } from "@sjawhar/inspect-viewer-react/hooks";
+import clsx from "clsx";
+import { FC, Fragment, useMemo, useRef } from "react";
 
 import { EventPanel } from "./event/EventPanel";
 import { EventSection } from "./event/EventSection";

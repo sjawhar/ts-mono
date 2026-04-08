@@ -1,4 +1,4 @@
-import { EvalLog } from "@tsmono/inspect-common/types";
+import { EvalLog } from "@sjawhar/inspect-viewer-common/types";
 
 import { asyncJsonParse } from "../../../utils/json-worker";
 import { encodePathParts } from "../../../utils/uri";

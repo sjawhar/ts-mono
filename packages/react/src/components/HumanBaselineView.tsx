@@ -1,6 +1,5 @@
+import { formatDateTime, formatTime } from "@sjawhar/inspect-viewer-util";
 import { FC, ReactNode } from "react";
-
-import { formatDateTime, formatTime } from "@tsmono/util";
 
 import { useRevokableUrls } from "../hooks";
 

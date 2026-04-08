@@ -1,4 +1,4 @@
-import { createLogger } from "@tsmono/util";
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 
 import { createPolling } from "../utils/polling";
 

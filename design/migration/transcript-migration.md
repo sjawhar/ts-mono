@@ -3,7 +3,7 @@
 ## Summary
 
 The content and usage component migration extracted shared rendering components
-from both `apps/inspect` and `apps/scout` into the `@tsmono/inspect-components`
+from both `apps/inspect` and `apps/scout` into the `@sjawhar/inspect-viewer-components`
 package. This was the foundational migration that preceded the chat migration,
 establishing the shared package structure and context-based dependency injection
 pattern used throughout.
@@ -54,7 +54,7 @@ The shared package uses three context providers for dependency injection:
 | **TokenTable** | Basic table with model name + usage | Same structure | Identical implementations unified |
 | **UsageCard** | Card wrapper around ModelTokenTable | Same structure | Identical implementations unified |
 | **Icon references** | `ApplicationIcons` from local `appearance/icons` | `ApplicationIcons` from local `icons` module (more comprehensive) | `useContentIcons()` context hook with default Bootstrap Icons |
-| **Type source** | Types from `@tsmono/inspect-common/types` | Types from local `api-types.ts` | All types from `@tsmono/inspect-common/types` |
+| **Type source** | Types from `@sjawhar/inspect-viewer-common/types` | Types from local `api-types.ts` | All types from `@sjawhar/inspect-viewer-common/types` |
 | **Display mode** | Not supported (always rendered) | Zustand-stored toggle (rendered/raw) with UI button | `DisplayModeContext` provider; apps opt in by wrapping content |
 | **Record processors** | `resolveStoreKeys` for store pattern expansion | Same implementation | Unified in `record_processors/store.ts` with tests |
 
@@ -106,8 +106,8 @@ packages/inspect-components/src/
 ## Consumer Files
 
 Both apps consume shared components through transcript event views and panels.
-These files import from `@tsmono/inspect-components/content` and
-`@tsmono/inspect-components/usage`:
+These files import from `@sjawhar/inspect-viewer-components/content` and
+`@sjawhar/inspect-viewer-components/usage`:
 
 **Scout transcript event views** (`apps/scout/src/components/transcript/`):
 
@@ -334,4 +334,4 @@ Verify display mode:
       between the shared package and app-level styles.
 - [ ] **Import path correctness** -- Verify no remaining imports from deleted
       local `content/` or `usage/` directories in either app (should all
-      point to `@tsmono/inspect-components/content` or `/usage`).
+      point to `@sjawhar/inspect-viewer-components/content` or `/usage`).

@@ -1,10 +1,15 @@
+import {
+  LabeledValue,
+  LiveVirtualList,
+} from "@sjawhar/inspect-viewer-react/components";
+import {
+  formatPercent,
+  formatPrettyDecimal,
+} from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, Fragment, useCallback, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import { VirtuosoHandle } from "react-virtuoso";
-
-import { LabeledValue, LiveVirtualList } from "@tsmono/react/components";
-import { formatPercent, formatPrettyDecimal } from "@tsmono/util";
 
 import { ApplicationIcons } from "../../../components/icons";
 import { updateScannerParam } from "../../../router/url";

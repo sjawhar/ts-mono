@@ -66,16 +66,16 @@ importers:
       '@popperjs/core':
         specifier: ^2.11.8
         version: 2.11.8
-      '@tsmono/inspect-common':
+      '@sjawhar/inspect-viewer-common':
         specifier: workspace:*
         version: link:../../packages/inspect-common
-      '@tsmono/inspect-components':
+      '@sjawhar/inspect-viewer-components':
         specifier: workspace:*
         version: link:../../packages/inspect-components
-      '@tsmono/react':
+      '@sjawhar/inspect-viewer-react':
         specifier: workspace:*
         version: link:../../packages/react
-      '@tsmono/util':
+      '@sjawhar/inspect-viewer-util':
         specifier: workspace:*
         version: link:../../packages/util
       ag-grid-community:
@@ -262,21 +262,21 @@ importers:
       '@popperjs/core':
         specifier: ^2.11.8
         version: 2.11.8
+      '@sjawhar/inspect-viewer-components':
+        specifier: workspace:*
+        version: link:../../packages/inspect-components
+      '@sjawhar/inspect-viewer-react':
+        specifier: workspace:*
+        version: link:../../packages/react
+      '@sjawhar/inspect-viewer-util':
+        specifier: workspace:*
+        version: link:../../packages/util
       '@tanstack/react-table':
         specifier: ^8.21.3
         version: 8.21.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@tanstack/react-virtual':
         specifier: ^3.13.23
         version: 3.13.23(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@tsmono/inspect-components':
-        specifier: workspace:*
-        version: link:../../packages/inspect-components
-      '@tsmono/react':
-        specifier: workspace:*
-        version: link:../../packages/react
-      '@tsmono/util':
-        specifier: workspace:*
-        version: link:../../packages/util
       '@vscode-elements/react-elements':
         specifier: ^2.4.0
         version: 2.4.0(@types/react@19.2.14)(@vscode/codicons@0.0.44)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -353,6 +353,9 @@ importers:
       '@playwright/test':
         specifier: ^1.59.1
         version: 1.59.1
+      '@sjawhar/inspect-viewer-common':
+        specifier: workspace:*
+        version: link:../../packages/inspect-common
       '@tanstack/react-query':
         specifier: ^5.96.2
         version: 5.96.2(react@19.2.4)
@@ -365,9 +368,6 @@ importers:
       '@tsmono/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@tsmono/inspect-common':
-        specifier: workspace:*
-        version: link:../../packages/inspect-common
       '@tsmono/prettier-config':
         specifier: workspace:*
         version: link:../../tooling/prettier-config
@@ -458,7 +458,7 @@ importers:
 
   packages/inspect-common:
     dependencies:
-      '@tsmono/util':
+      '@sjawhar/inspect-viewer-util':
         specifier: workspace:*
         version: link:../util
     devDependencies:
@@ -486,13 +486,13 @@ importers:
 
   packages/inspect-components:
     dependencies:
-      '@tsmono/inspect-common':
+      '@sjawhar/inspect-viewer-common':
         specifier: workspace:*
         version: link:../inspect-common
-      '@tsmono/react':
+      '@sjawhar/inspect-viewer-react':
         specifier: workspace:*
         version: link:../react
-      '@tsmono/util':
+      '@sjawhar/inspect-viewer-util':
         specifier: workspace:*
         version: link:../util
       clsx:
@@ -550,7 +550,7 @@ importers:
       '@popperjs/core':
         specifier: ^2.11.8
         version: 2.11.8
-      '@tsmono/util':
+      '@sjawhar/inspect-viewer-util':
         specifier: workspace:*
         version: link:../util
       ansi-output:

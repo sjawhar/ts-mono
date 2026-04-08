@@ -1,6 +1,3 @@
-import { FC, memo, ReactNode, RefObject } from "react";
-import { VirtuosoHandle } from "react-virtuoso";
-
 import type {
   ApprovalEvent,
   BranchEvent,
@@ -21,7 +18,9 @@ import type {
   StoreEvent,
   SubtaskEvent,
   ToolEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
+import { FC, memo, ReactNode, RefObject } from "react";
+import { VirtuosoHandle } from "react-virtuoso";
 
 import { ApprovalEventView } from "./ApprovalEventView";
 import { BranchEventView } from "./BranchEventView";

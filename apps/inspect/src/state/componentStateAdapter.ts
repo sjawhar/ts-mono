@@ -1,6 +1,5 @@
+import { ComponentStateHooks } from "@sjawhar/inspect-viewer-react/state";
 import { useCallback } from "react";
-
-import { ComponentStateHooks } from "@tsmono/react/state";
 
 import { useStore } from "./store";
 

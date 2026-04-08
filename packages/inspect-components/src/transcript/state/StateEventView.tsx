@@ -1,14 +1,13 @@
 // TODO: lint react-hooks/exhaustive-deps
 /* eslint-disable react-hooks/exhaustive-deps */
-import clsx from "clsx";
-import { FC, ReactNode, useEffect, useMemo } from "react";
-
 import type {
   JsonChange,
   StateEvent,
   StoreEvent,
-} from "@tsmono/inspect-common/types";
-import { formatDateTime } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-common/types";
+import { formatDateTime } from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import { FC, ReactNode, useEffect, useMemo } from "react";
 
 import { EventPanel } from "../event/EventPanel";
 import { EventNode, EventPanelCallbacks } from "../types";

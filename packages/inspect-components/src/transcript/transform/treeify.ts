@@ -2,7 +2,7 @@ import type {
   Event,
   SpanBeginEvent,
   SpanEndEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 import { EventNode, type EventType } from "../types";
 

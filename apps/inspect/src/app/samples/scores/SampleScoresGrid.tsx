@@ -1,12 +1,11 @@
-import clsx from "clsx";
-import { FC, Fragment, RefObject } from "react";
-
-import { EvalSample } from "@tsmono/inspect-common/types";
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
 import {
   RecordTree,
   RenderedContent,
-} from "@tsmono/inspect-components/content";
-import { EmptyPanel } from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-components/content";
+import { EmptyPanel } from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC, Fragment, RefObject } from "react";
 
 import { SampleSummary } from "../../../client/api/types";
 import { useEvalDescriptor } from "../../../state/hooks";

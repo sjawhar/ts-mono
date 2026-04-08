@@ -1,13 +1,12 @@
-import { ColumnDef } from "@tanstack/react-table";
-import clsx from "clsx";
-
 import {
   formatNumber,
   formatPrettyDecimal,
   formatTime,
   printArray,
   printObject,
-} from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-util";
+import { ColumnDef } from "@tanstack/react-table";
+import clsx from "clsx";
 
 import { ApplicationIcons } from "../../components/icons";
 import { FilterType } from "../../state/store";

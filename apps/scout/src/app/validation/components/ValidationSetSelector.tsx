@@ -1,9 +1,8 @@
+import { Modal } from "@sjawhar/inspect-viewer-react/components";
+import { dirname } from "@sjawhar/inspect-viewer-util";
 import { VscodeTextfield } from "@vscode-elements/react-elements";
 import { FC, useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-
-import { Modal } from "@tsmono/react/components";
-import { dirname } from "@tsmono/util";
 
 import { AppConfig } from "../../../types/api-types";
 import { projectOrAppAliasedPath } from "../../server/useAppConfig";

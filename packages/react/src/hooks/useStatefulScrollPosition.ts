@@ -1,6 +1,5 @@
+import { createLogger, debounce } from "@sjawhar/inspect-viewer-util";
 import { RefObject, useCallback, useEffect, useMemo, useRef } from "react";
-
-import { createLogger, debounce } from "@tsmono/util";
 
 import { useProperty } from "./useProperty";
 

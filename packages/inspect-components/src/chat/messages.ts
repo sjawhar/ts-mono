@@ -12,7 +12,7 @@ import type {
   ContentText,
   ContentToolUse,
   ContentVideo,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 /**
  * Extended message type that includes an optional timestamp

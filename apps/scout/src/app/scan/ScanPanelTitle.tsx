@@ -1,8 +1,11 @@
+import { CopyButton } from "@sjawhar/inspect-viewer-react/components";
+import {
+  formatDateTime,
+  prettyDirUri,
+  toRelativePath,
+} from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { CopyButton } from "@tsmono/react/components";
-import { formatDateTime, prettyDirUri, toRelativePath } from "@tsmono/util";
 
 import { ApplicationIcons } from "../../components/icons";
 import { useApi } from "../../state/store";

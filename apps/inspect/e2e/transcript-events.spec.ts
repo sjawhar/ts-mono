@@ -5,8 +5,6 @@
  * transcript panel. They serve as a baseline before extracting
  * transcript components into the shared inspect-components package.
  */
-import { http, HttpResponse } from "msw";
-
 import type {
   ChatMessage,
   ErrorEvent,
@@ -15,7 +13,8 @@ import type {
   ModelOutput,
   ScoreEvent,
   ToolEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
+import { http, HttpResponse } from "msw";
 
 import { expect, test } from "./fixtures/app";
 import {

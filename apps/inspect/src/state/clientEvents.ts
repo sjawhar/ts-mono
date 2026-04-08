@@ -1,7 +1,6 @@
+import { LogHandle } from "@sjawhar/inspect-viewer-common";
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 import { useCallback, useEffect } from "react";
-
-import { LogHandle } from "@tsmono/inspect-common";
-import { createLogger } from "@tsmono/util";
 
 import { clientEventsService } from "./clientEventsService";
 import { useLogs } from "./hooks";

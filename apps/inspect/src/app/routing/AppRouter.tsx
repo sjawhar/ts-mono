@@ -1,3 +1,4 @@
+import { ComponentNavigationProvider } from "@sjawhar/inspect-viewer-react/components";
 import { useEffect, useMemo } from "react";
 import {
   createHashRouter,
@@ -6,8 +7,6 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-
-import { ComponentNavigationProvider } from "@tsmono/react/components";
 
 import { storeImplementation, useStore } from "../../state/store";
 import { AppErrorBoundary } from "../AppErrorBoundary";

@@ -1,7 +1,6 @@
+import { PopOver } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, useCallback, useEffect, useMemo, useRef, useState } from "react";
-
-import { PopOver } from "@tsmono/react/components";
 
 import styles from "./EditableText.module.css";
 

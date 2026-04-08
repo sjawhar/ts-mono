@@ -1,3 +1,4 @@
+import { debounce } from "@sjawhar/inspect-viewer-util";
 import {
   ColumnSizingState,
   RowSelectionState,
@@ -9,8 +10,6 @@ import { StateSnapshot } from "react-virtuoso";
 import { create } from "zustand";
 import { createJSONStorage, devtools, persist } from "zustand/middleware";
 import { immer } from "zustand/middleware/immer";
-
-import { debounce } from "@tsmono/util";
 
 import { ScoutApiV2 } from "../api/api";
 import { ColumnSizingStrategyKey } from "../app/components/columnSizing";

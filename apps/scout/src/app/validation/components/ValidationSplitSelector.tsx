@@ -1,12 +1,11 @@
+import { Modal } from "@sjawhar/inspect-viewer-react/components";
+import { useDropdownPosition } from "@sjawhar/inspect-viewer-react/hooks";
 import {
   VscodeOption,
   VscodeSingleSelect,
   VscodeTextfield,
 } from "@vscode-elements/react-elements";
 import { FC, useMemo, useState } from "react";
-
-import { Modal } from "@tsmono/react/components";
-import { useDropdownPosition } from "@tsmono/react/hooks";
 
 import styles from "./ValidationSplitSelector.module.css";
 

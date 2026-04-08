@@ -1,6 +1,5 @@
+import { TextInput } from "@sjawhar/inspect-viewer-react/components";
 import { ChangeEvent, FC, useCallback } from "react";
-
-import { TextInput } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../../../components/icons";
 import { useStore } from "../../../../state/store";

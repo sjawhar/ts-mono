@@ -1,7 +1,10 @@
+import {
+  EvalSample,
+  EvalSpec,
+  LogHandle,
+} from "@sjawhar/inspect-viewer-common/types";
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 import { useCallback, useEffect, useMemo, useRef } from "react";
-
-import { EvalSample, EvalSpec, LogHandle } from "@tsmono/inspect-common/types";
-import { createLogger } from "@tsmono/util";
 
 import { EvalLogStatus, Events } from "../@types/extraInspect";
 import {

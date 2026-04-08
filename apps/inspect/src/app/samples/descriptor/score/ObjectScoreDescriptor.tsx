@@ -1,7 +1,6 @@
+import { formatPrettyDecimal, isNumeric } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { JSX } from "react";
-
-import { formatPrettyDecimal, isNumeric } from "@tsmono/util";
 
 import { ScoreValue } from "../../../../@types/extraInspect";
 import { kScoreTypeObject } from "../../../../constants";

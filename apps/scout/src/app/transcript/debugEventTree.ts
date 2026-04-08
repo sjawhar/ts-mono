@@ -9,7 +9,7 @@
  *   console.log(eventNodeTree(eventNodes));
  */
 
-import type { EventNode } from "@tsmono/inspect-components/transcript";
+import type { EventNode } from "@sjawhar/inspect-viewer-components/transcript";
 
 import type { Event } from "../../types/api-types";
 

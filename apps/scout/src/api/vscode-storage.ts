@@ -2,7 +2,7 @@
  * VS Code storage adapter for ClientStorage interface.
  */
 
-import { VSCodeApi } from "@tsmono/util";
+import { VSCodeApi } from "@sjawhar/inspect-viewer-util";
 
 import { ClientStorage } from "./api";
 

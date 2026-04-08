@@ -1,15 +1,3 @@
-import clsx from "clsx";
-import {
-  FC,
-  memo,
-  RefObject,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-} from "react";
-import { VirtuosoHandle } from "react-virtuoso";
-
 import {
   computeTurnMap,
   flatTree as flattenTree,
@@ -21,9 +9,23 @@ import {
   removeNodeVisitor,
   removeStepSpanNameVisitor,
   TranscriptVirtualList,
-} from "@tsmono/inspect-components/transcript";
-import { NoContentsPanel, StickyScroll } from "@tsmono/react/components";
-import { useCollapsedState } from "@tsmono/react/hooks";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import {
+  NoContentsPanel,
+  StickyScroll,
+} from "@sjawhar/inspect-viewer-react/components";
+import { useCollapsedState } from "@sjawhar/inspect-viewer-react/hooks";
+import clsx from "clsx";
+import {
+  FC,
+  memo,
+  RefObject,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+} from "react";
+import { VirtuosoHandle } from "react-virtuoso";
 
 import { Events } from "../../../@types/extraInspect";
 import { useStore } from "../../../state/store";

@@ -1,5 +1,5 @@
-import { useAsyncDataFromQuery } from "@tsmono/react/hooks";
-import { AsyncData } from "@tsmono/util";
+import { useAsyncDataFromQuery } from "@sjawhar/inspect-viewer-react/hooks";
+import { AsyncData } from "@sjawhar/inspect-viewer-util";
 
 import { useApi } from "../../state/store";
 import { ScannerInfo } from "../../types/api-types";

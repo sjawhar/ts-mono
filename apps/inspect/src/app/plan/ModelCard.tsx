@@ -1,9 +1,12 @@
+import { EvalSpec, ModelConfig } from "@sjawhar/inspect-viewer-common/types";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+} from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { EvalSpec, ModelConfig } from "@tsmono/inspect-common/types";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { Card, CardBody, CardHeader } from "@tsmono/react/components";
 
 import styles from "./ModelCard.module.css";
 

@@ -1,4 +1,7 @@
-import { EvalSample, LogFilesResponse } from "@tsmono/inspect-common/types";
+import {
+  EvalSample,
+  LogFilesResponse,
+} from "@sjawhar/inspect-viewer-common/types";
 
 import { sampleIdsEqual } from "../../app/shared/sample";
 import { encodePathParts } from "../../utils/uri";

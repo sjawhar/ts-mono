@@ -1,10 +1,9 @@
+import { TextInput } from "@sjawhar/inspect-viewer-react/components";
 import {
   VscodeOption,
   VscodeSingleSelect,
 } from "@vscode-elements/react-elements";
 import { ChangeEvent, FC, useMemo } from "react";
-
-import { TextInput } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../../components/icons";
 import { ValidationCase } from "../../../types/api-types";

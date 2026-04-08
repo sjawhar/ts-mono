@@ -1,6 +1,5 @@
+import { getVscodeApi } from "@sjawhar/inspect-viewer-util";
 import JSON5 from "json5";
-
-import { getVscodeApi } from "@tsmono/util";
 
 import { asyncJsonParse } from "../../../utils/json-worker";
 import {

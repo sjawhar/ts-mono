@@ -1,8 +1,7 @@
 // TODO: lint @typescript-eslint/no-explicit-any, @typescript-eslint/no-redundant-type-constituents
 /* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-redundant-type-constituents */
+import { MarkdownReference } from "@sjawhar/inspect-viewer-react/components";
 import { ReactNode } from "react";
-
-import { MarkdownReference } from "@tsmono/react/components";
 
 export const Buckets = {
   first: 0,

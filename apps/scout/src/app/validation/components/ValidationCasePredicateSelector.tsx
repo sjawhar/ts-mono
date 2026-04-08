@@ -1,10 +1,9 @@
+import { useDropdownPosition } from "@sjawhar/inspect-viewer-react/hooks";
 import {
   VscodeOption,
   VscodeSingleSelect,
 } from "@vscode-elements/react-elements";
 import { FC } from "react";
-
-import { useDropdownPosition } from "@tsmono/react/hooks";
 
 import { ValidationCase } from "../../../types/api-types";
 

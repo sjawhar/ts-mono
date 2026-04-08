@@ -30,7 +30,7 @@ import type {
   StoreEvent,
   SubtaskEvent,
   ToolEvent,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 import {
   EvalLogStatus,

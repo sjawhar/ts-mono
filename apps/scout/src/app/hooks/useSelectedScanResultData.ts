@@ -1,7 +1,6 @@
+import { AsyncData, data, loading } from "@sjawhar/inspect-viewer-util";
 import { ColumnTable } from "arquero";
 import { useEffect, useMemo, useState } from "react";
-
-import { AsyncData, data, loading } from "@tsmono/util";
 
 import { ScanResultData } from "../types";
 import { parseScanResultData } from "../utils/arrowHelpers";

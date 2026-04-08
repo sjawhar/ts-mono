@@ -1,7 +1,6 @@
+import { StickyScrollProvider } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, ReactNode, RefObject, useEffect, useRef } from "react";
-
-import { StickyScrollProvider } from "@tsmono/react/components";
 
 import { ActivityBar } from "./ActivityBar";
 import styles from "./LargeModal.module.css";

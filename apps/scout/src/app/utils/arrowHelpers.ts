@@ -1,6 +1,5 @@
+import { asyncJsonParse, isJson } from "@sjawhar/inspect-viewer-util";
 import { ColumnTable } from "arquero";
-
-import { asyncJsonParse, isJson } from "@tsmono/util";
 
 import { Event, JsonValue, ModelUsage } from "../../types/api-types";
 import {

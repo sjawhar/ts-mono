@@ -1,11 +1,5 @@
-import { skipToken } from "@tanstack/react-query";
-import { VscodeSplitLayout } from "@vscode-elements/react-elements";
-import { clsx } from "clsx";
-import { FC, ReactNode, useCallback, useEffect, useMemo } from "react";
-import { useSearchParams } from "react-router-dom";
-
-import { EventNode } from "@tsmono/inspect-components/transcript";
-import type { EventType } from "@tsmono/inspect-components/transcript";
+import { EventNode } from "@sjawhar/inspect-viewer-components/transcript";
+import type { EventType } from "@sjawhar/inspect-viewer-components/transcript";
 import {
   ExtendedFindProvider,
   JSONPanel,
@@ -13,8 +7,13 @@ import {
   TabPanel,
   TabSet,
   ToolButton,
-} from "@tsmono/react/components";
-import { useDocumentTitle } from "@tsmono/react/hooks";
+} from "@sjawhar/inspect-viewer-react/components";
+import { useDocumentTitle } from "@sjawhar/inspect-viewer-react/hooks";
+import { skipToken } from "@tanstack/react-query";
+import { VscodeSplitLayout } from "@vscode-elements/react-elements";
+import { clsx } from "clsx";
+import { FC, ReactNode, useCallback, useEffect, useMemo } from "react";
+import { useSearchParams } from "react-router-dom";
 
 import { ApplicationIcons } from "../../components/icons";
 import {

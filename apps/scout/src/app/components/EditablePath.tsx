@@ -1,6 +1,5 @@
+import { isUri, prettyDirUri } from "@sjawhar/inspect-viewer-util";
 import { FC } from "react";
-
-import { isUri, prettyDirUri } from "@tsmono/util";
 
 import { EditableText } from "./EditableText";
 

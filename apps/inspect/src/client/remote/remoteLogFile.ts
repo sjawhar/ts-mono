@@ -3,8 +3,8 @@ import {
   EvalPlan,
   EvalSample,
   EvalSpec,
-} from "@tsmono/inspect-common/types";
-import { AsyncQueue, fetchRange } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-common/types";
+import { AsyncQueue, fetchRange } from "@sjawhar/inspect-viewer-util";
 
 import { clearLargeEventsArray } from "../../utils/clear-events-preprocessor";
 import { asyncJsonParseBytes } from "../../utils/json-worker";

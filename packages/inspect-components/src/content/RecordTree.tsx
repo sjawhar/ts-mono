@@ -1,5 +1,10 @@
 // TODO: lint react-hooks/exhaustive-deps, @typescript-eslint/no-base-to-string
 /* eslint-disable react-hooks/exhaustive-deps, @typescript-eslint/no-base-to-string */
+import { ExpandablePanel } from "@sjawhar/inspect-viewer-react/components";
+import {
+  useCollapsibleIds,
+  useVirtuosoState,
+} from "@sjawhar/inspect-viewer-react/hooks";
 import clsx from "clsx";
 import {
   FC,
@@ -11,9 +16,6 @@ import {
   useRef,
 } from "react";
 import { Virtuoso, VirtuosoHandle } from "react-virtuoso";
-
-import { ExpandablePanel } from "@tsmono/react/components";
-import { useCollapsibleIds, useVirtuosoState } from "@tsmono/react/hooks";
 
 import { useContentIcons } from "./IconsContext";
 import { resolveStoreKeys } from "./record_processors/store";

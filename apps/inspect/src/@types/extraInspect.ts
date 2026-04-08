@@ -13,7 +13,7 @@ import type {
   JsonChange,
   Score,
   ToolInfo,
-} from "@tsmono/inspect-common";
+} from "@sjawhar/inspect-viewer-common";
 
 export type ChatMessageContent = ChatMessage["content"];
 export type ChatMessages = ChatMessage[];

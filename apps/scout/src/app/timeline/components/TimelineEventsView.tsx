@@ -1,15 +1,3 @@
-import clsx from "clsx";
-import {
-  CSSProperties,
-  FC,
-  RefObject,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
-
 import {
   computeTurnMap,
   EventNode,
@@ -23,9 +11,23 @@ import {
   removeStepSpanNameVisitor,
   TimelineSelectContext,
   TranscriptOutline,
-} from "@tsmono/inspect-components/transcript";
-import { NoContentsPanel, StickyScroll } from "@tsmono/react/components";
-import { useProperty } from "@tsmono/react/hooks";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import {
+  NoContentsPanel,
+  StickyScroll,
+} from "@sjawhar/inspect-viewer-react/components";
+import { useProperty } from "@sjawhar/inspect-viewer-react/hooks";
+import clsx from "clsx";
+import {
+  CSSProperties,
+  FC,
+  RefObject,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 
 import { ApplicationIcons } from "../../../components/icons";
 import { AgentCardView } from "../../../components/transcript/AgentCardView";

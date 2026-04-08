@@ -1,13 +1,12 @@
-import clsx from "clsx";
-import React, { useEffect } from "react";
-import { useSearchParams } from "react-router-dom";
-
 import {
   ErrorPanel,
   ExtendedFindProvider,
   LoadingBar,
-} from "@tsmono/react/components";
-import { useDocumentTitle } from "@tsmono/react/hooks";
+} from "@sjawhar/inspect-viewer-react/components";
+import { useDocumentTitle } from "@sjawhar/inspect-viewer-react/hooks";
+import clsx from "clsx";
+import React, { useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 
 import { getScannerParam } from "../../router/url";
 import { useStore } from "../../state/store";

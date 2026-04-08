@@ -1,8 +1,10 @@
+import {
+  JSONPanel,
+  ToolButton,
+} from "@sjawhar/inspect-viewer-react/components";
+import { filename } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, MouseEvent, useMemo } from "react";
-
-import { JSONPanel, ToolButton } from "@tsmono/react/components";
-import { filename } from "@tsmono/util";
 
 import { LogDetails } from "../../../client/api/types";
 import { DownloadPanel } from "../../../components/DownloadPanel";

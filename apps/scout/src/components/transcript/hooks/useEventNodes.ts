@@ -1,13 +1,12 @@
-import { useMemo } from "react";
-
 import {
   EventNode,
   fixupEventStream,
   kCollapsibleEventTypes,
   kSandboxSignalName,
   treeifyEvents,
-} from "@tsmono/inspect-components/transcript";
-import type { EventType } from "@tsmono/inspect-components/transcript";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import type { EventType } from "@sjawhar/inspect-viewer-components/transcript";
+import { useMemo } from "react";
 
 import { attachSourceSpans } from "../../../app/timeline/timelineEventNodes";
 import type { TimelineSpan } from "../../../components/transcript/timeline";

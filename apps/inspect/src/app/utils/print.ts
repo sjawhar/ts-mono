@@ -1,4 +1,4 @@
-import { EvalSpec } from "@tsmono/inspect-common/types";
+import { EvalSpec } from "@sjawhar/inspect-viewer-common/types";
 
 /**
  * Opens a new window and prints the provided HTML content with optional custom CSS for printing.

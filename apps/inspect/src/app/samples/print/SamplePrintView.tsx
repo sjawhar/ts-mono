@@ -1,21 +1,20 @@
-import React, { FC, useEffect, useMemo, useRef } from "react";
-import { useSearchParams } from "react-router-dom";
-import { VirtuosoHandle } from "react-virtuoso";
-
-import { EvalSample } from "@tsmono/inspect-common/types";
-import { ChatView } from "@tsmono/inspect-components/chat";
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
+import { EvalSample } from "@sjawhar/inspect-viewer-common/types";
+import { ChatView } from "@sjawhar/inspect-viewer-components/chat";
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
 import {
   flatTree,
   TranscriptVirtualListComponent,
-} from "@tsmono/inspect-components/transcript";
-import { ModelTokenTable } from "@tsmono/inspect-components/usage";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import { ModelTokenTable } from "@sjawhar/inspect-viewer-components/usage";
 import {
   Card,
   CardBody,
   CardHeader,
   NoContentsPanel,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import React, { FC, useEffect, useMemo, useRef } from "react";
+import { useSearchParams } from "react-router-dom";
+import { VirtuosoHandle } from "react-virtuoso";
 
 import {
   kSampleJsonTabId,

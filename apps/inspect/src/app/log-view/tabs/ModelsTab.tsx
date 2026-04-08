@@ -1,7 +1,6 @@
+import { EvalSpec, EvalStats } from "@sjawhar/inspect-viewer-common/types";
+import { UsageCard } from "@sjawhar/inspect-viewer-components/usage";
 import { FC, useMemo } from "react";
-
-import { EvalSpec, EvalStats } from "@tsmono/inspect-common/types";
-import { UsageCard } from "@tsmono/inspect-components/usage";
 
 import { EvalLogStatus } from "../../../@types/extraInspect";
 import { kLogViewModelsTabId } from "../../../constants";

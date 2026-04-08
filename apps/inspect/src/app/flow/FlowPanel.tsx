@@ -1,9 +1,8 @@
+import { usePrismHighlight } from "@sjawhar/inspect-viewer-react/hooks";
+import { dirname } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-
-import { usePrismHighlight } from "@tsmono/react/hooks";
-import { dirname } from "@tsmono/util";
 
 import { useLogs } from "../../state/hooks";
 import { useStore } from "../../state/store";

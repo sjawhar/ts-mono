@@ -1,6 +1,5 @@
+import { AsyncData } from "@sjawhar/inspect-viewer-util";
 import { skipToken } from "@tanstack/react-query";
-
-import { AsyncData } from "@tsmono/util";
 
 import { ScannerInput } from "../../types/api-types";
 import { useScanDataframeInput } from "../server/useScanDataframeInput";

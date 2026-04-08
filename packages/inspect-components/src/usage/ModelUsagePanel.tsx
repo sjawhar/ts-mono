@@ -1,9 +1,8 @@
 // TODO: lint @typescript-eslint/no-redundant-type-constituents
 /* eslint-disable @typescript-eslint/no-redundant-type-constituents */
+import { formatNumber } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, Fragment } from "react";
-
-import { formatNumber } from "@tsmono/util";
 
 import styles from "./ModelUsagePanel.module.css";
 

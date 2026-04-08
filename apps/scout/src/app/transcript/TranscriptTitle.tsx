@@ -1,13 +1,12 @@
-import clsx from "clsx";
-import { FC } from "react";
-
-import { CopyButton } from "@tsmono/react/components";
+import { CopyButton } from "@sjawhar/inspect-viewer-react/components";
 import {
   formatDateTime,
   formatNumber,
   formatTime,
   isRecord,
-} from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import { FC } from "react";
 
 import { Transcript } from "../../types/api-types";
 import { HeadingGrid, HeadingValue } from "../components/HeadingGrid";

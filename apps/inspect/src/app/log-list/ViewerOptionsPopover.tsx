@@ -1,7 +1,6 @@
+import { PopOver } from "@sjawhar/inspect-viewer-react/components";
 import clsx from "clsx";
 import { FC, useState } from "react";
-
-import { PopOver } from "@tsmono/react/components";
 
 import { DB_VERSION } from "../../client/database/schema";
 import { useStore } from "../../state/store";

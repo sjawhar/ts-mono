@@ -10,7 +10,7 @@ export {
   kCollapsibleEventTypes,
   kTranscriptCollapseScope,
   kTranscriptOutlineCollapseScope,
-} from "@tsmono/inspect-components/transcript";
+} from "@sjawhar/inspect-viewer-components/transcript";
 export type {
   EventNodeContext,
   EventNodeSpan,
@@ -19,4 +19,4 @@ export type {
   StateManager,
   TranscriptEventState,
   TranscriptState,
-} from "@tsmono/inspect-components/transcript";
+} from "@sjawhar/inspect-viewer-components/transcript";

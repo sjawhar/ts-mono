@@ -1,7 +1,6 @@
+import { useMapAsyncData } from "@sjawhar/inspect-viewer-react/hooks";
+import { AsyncData, data } from "@sjawhar/inspect-viewer-util";
 import { useMemo } from "react";
-
-import { useMapAsyncData } from "@tsmono/react/hooks";
-import { AsyncData, data } from "@tsmono/util";
 
 import { useStore } from "../../state/store";
 import { Status } from "../../types/api-types";

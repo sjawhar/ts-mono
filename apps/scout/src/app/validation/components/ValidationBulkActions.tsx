@@ -1,3 +1,4 @@
+import { Modal } from "@sjawhar/inspect-viewer-react/components";
 import {
   VscodeButton,
   VscodeOption,
@@ -5,8 +6,6 @@ import {
   VscodeTextfield,
 } from "@vscode-elements/react-elements";
 import { FC, useMemo, useState } from "react";
-
-import { Modal } from "@tsmono/react/components";
 
 import { ValidationCase } from "../../../types/api-types";
 import { extractUniqueSplits } from "../utils";

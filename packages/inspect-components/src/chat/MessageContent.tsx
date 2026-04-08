@@ -1,7 +1,3 @@
-import clsx from "clsx";
-import JSON5 from "json5";
-import { FC, Fragment, ReactNode, useRef } from "react";
-
 import type {
   Citation,
   ContentAudio,
@@ -12,10 +8,13 @@ import type {
   ContentText,
   ContentToolUse,
   ContentVideo,
-} from "@tsmono/inspect-common/types";
-import { ExpandablePanel } from "@tsmono/react/components";
-import { usePrismHighlight } from "@tsmono/react/hooks";
-import { isJson } from "@tsmono/util";
+} from "@sjawhar/inspect-viewer-common/types";
+import { ExpandablePanel } from "@sjawhar/inspect-viewer-react/components";
+import { usePrismHighlight } from "@sjawhar/inspect-viewer-react/hooks";
+import { isJson } from "@sjawhar/inspect-viewer-util";
+import clsx from "clsx";
+import JSON5 from "json5";
+import { FC, Fragment, ReactNode, useRef } from "react";
 
 import { RenderedText } from "../content/RenderedText";
 

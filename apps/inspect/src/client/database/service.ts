@@ -1,5 +1,5 @@
-import { LogHandle } from "@tsmono/inspect-common";
-import { createLogger } from "@tsmono/util";
+import { LogHandle } from "@sjawhar/inspect-viewer-common";
+import { createLogger } from "@sjawhar/inspect-viewer-util";
 
 import { LogDetails, LogPreview, SampleSummary } from "../api/types";
 

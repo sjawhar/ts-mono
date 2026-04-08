@@ -1,4 +1,4 @@
-import { toRelativePath } from "@tsmono/util";
+import { toRelativePath } from "@sjawhar/inspect-viewer-util";
 
 import { Status } from "../../types/api-types";
 

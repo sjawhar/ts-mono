@@ -1,6 +1,3 @@
-import clsx from "clsx";
-import { FC, useMemo } from "react";
-
 import type {
   ContentAudio,
   ContentData,
@@ -10,8 +7,13 @@ import type {
   ContentText,
   ContentVideo,
   ToolCallContent,
-} from "@tsmono/inspect-common/types";
-import { ExpandablePanel, MarkdownDiv } from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-common/types";
+import {
+  ExpandablePanel,
+  MarkdownDiv,
+} from "@sjawhar/inspect-viewer-react/components";
+import clsx from "clsx";
+import { FC, useMemo } from "react";
 
 import { MessageContent } from "../MessageContent";
 import { defaultContext, MessagesContext } from "../MessageContents";

@@ -1,7 +1,9 @@
+import {
+  useCollapsibleIds,
+  useProperty,
+} from "@sjawhar/inspect-viewer-react/hooks";
 import clsx from "clsx";
 import { FC, useCallback, useMemo, useRef, useState } from "react";
-
-import { useCollapsibleIds, useProperty } from "@tsmono/react/hooks";
 
 import { ApplicationIcons } from "../../../components/icons";
 import { type TimelineState } from "../hooks/useTimeline";

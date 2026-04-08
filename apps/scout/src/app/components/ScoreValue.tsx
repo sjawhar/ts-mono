@@ -1,8 +1,7 @@
+import { MetaDataGrid } from "@sjawhar/inspect-viewer-components/content";
+import { isRecord } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC } from "react";
-
-import { MetaDataGrid } from "@tsmono/inspect-components/content";
-import { isRecord } from "@tsmono/util";
 
 import { JsonValue } from "../../types/api-types";
 

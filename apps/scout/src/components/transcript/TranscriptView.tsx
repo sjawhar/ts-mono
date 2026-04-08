@@ -1,9 +1,8 @@
-import { FC } from "react";
-
 import type {
   EventNode,
   EventType,
-} from "@tsmono/inspect-components/transcript";
+} from "@sjawhar/inspect-viewer-components/transcript";
+import { FC } from "react";
 
 import { Event } from "../../types/api-types";
 

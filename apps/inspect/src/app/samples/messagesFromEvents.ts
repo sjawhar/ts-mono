@@ -5,7 +5,7 @@ import type {
   ChatMessageTool,
   ChatMessageUser,
   Event,
-} from "@tsmono/inspect-common/types";
+} from "@sjawhar/inspect-viewer-common/types";
 
 export const messagesFromEvents = (runningEvents: Event[]): ChatMessage[] => {
   const messages: Map<

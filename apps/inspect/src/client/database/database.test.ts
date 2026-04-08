@@ -8,9 +8,8 @@
  * - log_details: stores complete results from get_log_info() including samples (LogDetails)
  */
 
+import { LogHandle } from "@sjawhar/inspect-viewer-common";
 import { afterEach, beforeEach, describe, expect, test } from "vitest";
-
-import { LogHandle } from "@tsmono/inspect-common";
 
 import { LogDetails, LogPreview, SampleSummary } from "../api/types";
 

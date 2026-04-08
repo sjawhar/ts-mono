@@ -1,10 +1,9 @@
 // @vitest-environment jsdom
-import { describe, expect, it } from "vitest";
-
 import {
   injectReferenceLinks,
   MarkdownReference,
-} from "@tsmono/react/components";
+} from "@sjawhar/inspect-viewer-react/components";
+import { describe, expect, it } from "vitest";
 
 const CITE_CLASS = "cite";
 

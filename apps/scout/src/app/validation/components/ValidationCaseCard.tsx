@@ -1,8 +1,7 @@
+import { Modal } from "@sjawhar/inspect-viewer-react/components";
 import { VscodeCheckbox } from "@vscode-elements/react-elements";
 import React, { CSSProperties, FC, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
-import { Modal } from "@tsmono/react/components";
 
 import { ApplicationIcons } from "../../../components/icons";
 import { transcriptRoute } from "../../../router/url";

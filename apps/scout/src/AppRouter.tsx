@@ -1,3 +1,4 @@
+import { ComponentNavigationProvider } from "@sjawhar/inspect-viewer-react/components";
 import { FC, useEffect, useMemo } from "react";
 import {
   createHashRouter,
@@ -5,8 +6,6 @@ import {
   useLocation,
   useParams,
 } from "react-router-dom";
-
-import { ComponentNavigationProvider } from "@tsmono/react/components";
 
 import { ActivityBarLayout } from "./app/components/ActivityBarLayout";
 import { FindBand } from "./app/components/FindBand";

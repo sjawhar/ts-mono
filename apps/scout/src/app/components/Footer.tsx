@@ -1,7 +1,6 @@
+import { formatNumber } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, ReactNode } from "react";
-
-import { formatNumber } from "@tsmono/util";
 
 import styles from "./Footer.module.css";
 import { Pager } from "./Pager";

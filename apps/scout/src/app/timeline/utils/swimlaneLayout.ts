@@ -5,7 +5,7 @@
  * rendering. All functions are pure with no DOM or React dependencies.
  */
 
-import { formatPrettyDecimal } from "@tsmono/util";
+import { formatPrettyDecimal } from "@sjawhar/inspect-viewer-util";
 
 import type {
   TimelineEvent,

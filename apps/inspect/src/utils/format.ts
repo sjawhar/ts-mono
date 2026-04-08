@@ -1,4 +1,4 @@
-import { formatPrettyDecimal } from "@tsmono/util";
+import { formatPrettyDecimal } from "@sjawhar/inspect-viewer-util";
 
 /**
  * Formats a duration given in seconds into a human-readable string.

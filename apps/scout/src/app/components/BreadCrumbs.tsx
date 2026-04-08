@@ -1,8 +1,7 @@
+import { basename, dirname, prettyDirUri } from "@sjawhar/inspect-viewer-util";
 import clsx from "clsx";
 import { FC, Fragment, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
-
-import { basename, dirname, prettyDirUri } from "@tsmono/util";
 
 import styles from "./Breadcrumbs.module.css";
 import {

@@ -3,7 +3,7 @@ import { CSSProperties, FC, useMemo, useRef } from "react";
 
 import "./JsonPanel.css";
 
-import { maybeBase64 } from "@tsmono/util";
+import { maybeBase64 } from "@sjawhar/inspect-viewer-util";
 
 import { usePrismHighlight } from "../hooks/usePrismHighlight";
 

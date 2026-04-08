@@ -1,6 +1,5 @@
+import { PopOver } from "@sjawhar/inspect-viewer-react/components";
 import { FC } from "react";
-
-import { PopOver } from "@tsmono/react/components";
 
 import type { UseTimelineConfigResult } from "../hooks/useTimelineConfig";
 import type { MarkerKind } from "../utils/markers";

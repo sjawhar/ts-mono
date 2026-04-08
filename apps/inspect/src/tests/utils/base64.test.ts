@@ -1,6 +1,5 @@
+import { isBase64 } from "@sjawhar/inspect-viewer-util";
 import { describe, expect, test } from "vitest";
-
-import { isBase64 } from "@tsmono/util";
 
 describe("isBase64", () => {
   test("identifies valid base64 strings", () => {
